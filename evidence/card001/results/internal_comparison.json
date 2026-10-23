@@ -1,0 +1,47 @@
+{
+  "status": "INCONCLUSIVE_DEVELOPMENT_PRECISION",
+  "cohort": "internal",
+  "analysis_role": "primary",
+  "cohort_manifest_sha256": "2e4c0c09eaa36df81e2e450d42b1e47ae6a1cb92bc713e81c2f3d286132c0716",
+  "comparator": "M15",
+  "sensitivity_difference": -0.07222222222222219,
+  "unconfirmed_difference": -0.009944167642092938,
+  "feasibility_floor": true,
+  "burden_caps": true,
+  "burden_rate_intervals": {
+    "undefined_replicates": 0,
+    "switch_unconfirmed": [
+      0.6414962822849662,
+      0.9483082734453159
+    ],
+    "comparator_unconfirmed": [
+      0.6565891242241584,
+      0.9538588164740602
+    ],
+    "switch_total": [
+      0.6642414314462471,
+      0.9917171167047819
+    ],
+    "comparator_total": [
+      0.6824018112977956,
+      1.0041192296862305
+    ]
+  },
+  "statistically_refuted_target_gain": true,
+  "statistically_refuted_margin": false,
+  "statistically_refuted_cap": false,
+  "development_projected_MDE": 0.07685827053831043,
+  "development_precision_resolvable": false,
+  "operating_point_rejected": false,
+  "replicates": 10000,
+  "undefined": 0,
+  "sensitivity_difference_ci": [
+    -0.14045171576070453,
+    0.0
+  ],
+  "unconfirmed_difference_ci": [
+    -0.045043276309760426,
+    0.026384963721013035
+  ],
+  "caveat": "Retrospective recorded sensor episodes only; not a clinical efficacy or dosing result"
+}

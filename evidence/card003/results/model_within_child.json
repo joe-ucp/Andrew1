@@ -1,0 +1,18 @@
+{
+  "outcome": "unwarned",
+  "exposure": "auc_nmol_l",
+  "n_intervals": 164,
+  "n_children": 58,
+  "events": 180,
+  "observed_days": 4296.204861111111,
+  "status": "secondary_estimate_robust_interval",
+  "beta": 0.03426490426130202,
+  "rr": 1.0348587089029317,
+  "robust_se": 0.25231314195791077,
+  "robust_95_ci": [
+    0.6311196802702531,
+    1.6968771231054887
+  ],
+  "analysis_name": "within_child",
+  "inferential_role": "sensitivity_cluster_sandwich_only"
+}

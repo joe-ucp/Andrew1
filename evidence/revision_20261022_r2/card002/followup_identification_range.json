@@ -1,0 +1,50 @@
+{
+  "theta_range_weeks": [
+    -14.142748917748904,
+    136.77543290043292
+  ],
+  "uncertain_endpoint_n": 19,
+  "uncertain_endpoint_range_weeks": [
+    0,
+    156
+  ],
+  "recorded_event_durations_held_fixed": 54,
+  "interpretation": "Conservative finite-sample contrast identification range, not confidence interval or population treatment-effect bound",
+  "assumption": "No additional follow-up information imposed on19 non-event records; later RNA sampling not used to tighten this deliberately conservative box",
+  "clinical_hypothesis_new": false,
+  "post_results_provenance_sensitivity": true,
+  "cells": [
+    {
+      "group": "low_treated",
+      "contrast_sign": 1,
+      "n": 22,
+      "unverified_non_events": 9,
+      "cell_mean_min": 80.55844155844156,
+      "cell_mean_max": 144.37662337662337
+    },
+    {
+      "group": "low_placebo",
+      "contrast_sign": -1,
+      "n": 15,
+      "unverified_non_events": 2,
+      "cell_mean_min": 53.64761904761905,
+      "cell_mean_max": 74.44761904761906
+    },
+    {
+      "group": "high_treated",
+      "contrast_sign": -1,
+      "n": 20,
+      "unverified_non_events": 6,
+      "cell_mean_min": 70.54285714285713,
+      "cell_mean_max": 117.34285714285713
+    },
+    {
+      "group": "high_placebo",
+      "contrast_sign": 1,
+      "n": 16,
+      "unverified_non_events": 2,
+      "cell_mean_min": 97.08928571428572,
+      "cell_mean_max": 116.58928571428572
+    }
+  ]
+}

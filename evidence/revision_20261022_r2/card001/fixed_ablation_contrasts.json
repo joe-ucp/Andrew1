@@ -1,0 +1,182 @@
+[
+  {
+    "cohort": "internal",
+    "a": "switch_004_001",
+    "b": "M15_004",
+    "contrast": "Frozen primary contrast",
+    "sensitivity_difference": -0.07222222222222222,
+    "unconfirmed_difference": -0.009944167642092832,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.14084507042253522,
+      0.0
+    ],
+    "unconfirmed_difference_ci": [
+      -0.04503544654921441,
+      0.026373067165389532
+    ]
+  },
+  {
+    "cohort": "internal",
+    "a": "switch_004_004",
+    "b": "M15_004",
+    "contrast": "Model/history choice at common numeric threshold",
+    "sensitivity_difference": -0.10555555555555556,
+    "unconfirmed_difference": -0.11999295621458685,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.1727300785634119,
+      -0.028409090909090908
+    ],
+    "unconfirmed_difference_ci": [
+      -0.15677100747474543,
+      -0.0875135062499614
+    ]
+  },
+  {
+    "cohort": "internal",
+    "a": "switch_004_001",
+    "b": "switch_004_004",
+    "contrast": "Fallback threshold change with fixed model choice",
+    "sensitivity_difference": 0.03333333333333333,
+    "unconfirmed_difference": 0.11004878857249402,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      0.011362031330251671,
+      0.056074766355140186
+    ],
+    "unconfirmed_difference_ci": [
+      0.07575279605225106,
+      0.15331894998869403
+    ]
+  },
+  {
+    "cohort": "internal",
+    "a": "M15_001",
+    "b": "M15_004",
+    "contrast": "Short-model threshold change",
+    "sensitivity_difference": 0.10555555555555556,
+    "unconfirmed_difference": 1.2039072292027055,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.01869898260972435,
+      0.21081264938407793
+    ],
+    "unconfirmed_difference_ci": [
+      1.0108255651805231,
+      1.420628986222079
+    ]
+  },
+  {
+    "cohort": "internal",
+    "a": "M120_004",
+    "b": "M15_004",
+    "contrast": "Long versus short standalone at common numeric threshold",
+    "sensitivity_difference": -0.14444444444444443,
+    "unconfirmed_difference": -0.1899336019639731,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.22857142857142856,
+      -0.04370990734141135
+    ],
+    "unconfirmed_difference_ci": [
+      -0.23796020725293052,
+      -0.14949942722347367
+    ]
+  },
+  {
+    "cohort": "external",
+    "a": "switch_004_001",
+    "b": "M15_004",
+    "contrast": "Frozen primary contrast",
+    "sensitivity_difference": -0.05596669750231267,
+    "unconfirmed_difference": 0.07947444662415344,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.06633045405117052,
+      -0.04478106655354429
+    ],
+    "unconfirmed_difference_ci": [
+      0.042345876345757066,
+      0.11989146806802606
+    ]
+  },
+  {
+    "cohort": "external",
+    "a": "switch_004_004",
+    "b": "M15_004",
+    "contrast": "Model/history choice at common numeric threshold",
+    "sensitivity_difference": -0.06648936170212766,
+    "unconfirmed_difference": -0.2253379588302268,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.07621817192002048,
+      -0.056208221039554286
+    ],
+    "unconfirmed_difference_ci": [
+      -0.24377060540469003,
+      -0.2080754249201308
+    ]
+  },
+  {
+    "cohort": "external",
+    "a": "switch_004_001",
+    "b": "switch_004_004",
+    "contrast": "Fallback threshold change with fixed model choice",
+    "sensitivity_difference": 0.010522664199814987,
+    "unconfirmed_difference": 0.30481240545438026,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      0.005413879861274122,
+      0.015538253043497223
+    ],
+    "unconfirmed_difference_ci": [
+      0.2692815043510323,
+      0.3445283410433481
+    ]
+  },
+  {
+    "cohort": "external",
+    "a": "M15_001",
+    "b": "M15_004",
+    "contrast": "Short-model threshold change",
+    "sensitivity_difference": 0.06070767807585569,
+    "unconfirmed_difference": 2.2151405861389346,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      0.046733263902815576,
+      0.0744948980715606
+    ],
+    "unconfirmed_difference_ci": [
+      2.0875864550187107,
+      2.3432907872551865
+    ]
+  },
+  {
+    "cohort": "external",
+    "a": "M120_004",
+    "b": "M15_004",
+    "contrast": "Long versus short standalone at common numeric threshold",
+    "sensitivity_difference": -0.14396392229417207,
+    "unconfirmed_difference": -0.4218935774268014,
+    "replicates": 10000,
+    "undefined": 0,
+    "sensitivity_difference_ci": [
+      -0.15584271959836926,
+      -0.1320344828820573
+    ],
+    "unconfirmed_difference_ci": [
+      -0.45501114477956495,
+      -0.3909788906471802
+    ]
+  }
+]

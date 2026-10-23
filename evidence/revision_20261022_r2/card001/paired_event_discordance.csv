@@ -1,0 +1,7 @@
+cohort,stratum,events,both,M15_only,switch_only,neither,net_switch_minus_M15,difference
+internal,all,180,85,27,14,54,-13,-0.07222222222222222
+internal,no_long_opportunity,16,8,0,6,2,6,0.375
+internal,long_opportunity,164,77,27,8,52,-19,-0.11585365853658537
+external,all,8648,3977,1338,854,2479,-484,-0.05596669750231267
+external,no_long_opportunity,1198,517,152,259,270,107,0.08931552587646077
+external,long_opportunity,7450,3460,1186,595,2209,-591,-0.07932885906040268

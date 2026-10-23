@@ -1,0 +1,33 @@
+{
+  "n": 10000,
+  "original_theta_weeks": 69.17543290043291,
+  "mean_weeks": 54.03092496913556,
+  "median_weeks": 54.301245486753075,
+  "sample_sd_weeks": 26.43806531836917,
+  "adjusted_sample_skewness": -0.06478562726800663,
+  "percentiles_weeks": {
+    "0": -38.81778249057071,
+    "2.5": 1.4158912763822962,
+    "5": 9.648997849139715,
+    "25": 36.197254499886085,
+    "50": 54.301245486753075,
+    "75": 72.29397440612405,
+    "95": 97.0207703387346,
+    "97.5": 104.86590378371628,
+    "100": 147.27500000000003
+  },
+  "mean_minus_original_weeks": -15.144507931297348,
+  "median_minus_original_weeks": -14.874187413679834,
+  "fixed_group_interval_weeks": [
+    20.49231564793609,
+    117.85855015292972
+  ],
+  "fixed_group_interval_width_weeks": 97.36623450499363,
+  "bootstrap_percentile_interval_weeks": [
+    1.4158912763822962,
+    104.86590378371628
+  ],
+  "bootstrap_interval_width_weeks": 103.45001250733398,
+  "bootstrap_interval_midpoint_weeks": 53.14089753004929,
+  "interpretation": "Descriptive distribution of the existing arm-stratified full-score bootstrap, conditional on original released outcomes. It is not a posterior distribution or a newly fitted clinical model."
+}

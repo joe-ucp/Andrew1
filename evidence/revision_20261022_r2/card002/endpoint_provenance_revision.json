@@ -1,0 +1,15 @@
+{
+  "n": 73,
+  "events_by_156": 32,
+  "recorded_events_after_156": 22,
+  "non_event_n": 19,
+  "encoded_early_censor_n": 0,
+  "unique_non_event_encoded_durations": [
+    551.4286
+  ],
+  "maximum_event_duration": 551.428571428571,
+  "clinical_complete_followup_independently_verified": false,
+  "limitation": "All19 non-events share551.4286 weeks, equal to maximum event duration rounded; no individual last-contact field. Encoded completeness does not verify actual clinical ascertainment.",
+  "numerical_result_status": "unchanged conditional reproduction",
+  "original_assertion_narrowed": "all_73_primary_outcomes_observed is an encoding check, not independent clinical verification"
+}

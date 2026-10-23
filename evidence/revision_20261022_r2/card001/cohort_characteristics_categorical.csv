@@ -1,0 +1,32 @@
+cohort,field,category,n,denominator,fraction
+DCLP3_all,recorded_gender,M,84,168,0.5
+DCLP3_all,recorded_gender,F,84,168,0.5
+DCLP3_all,recorded_race,White,147,168,0.875
+DCLP3_all,recorded_race,More than one race,8,168,0.047619047619047616
+DCLP3_all,recorded_race,Asian,5,168,0.02976190476190476
+DCLP3_all,recorded_race,Black/African American,4,168,0.023809523809523808
+DCLP3_all,recorded_race,Unknown/not reported,3,168,0.017857142857142856
+DCLP3_all,recorded_race,Native Hawaiian/Other Pacific Islander,1,168,0.005952380952380952
+DCLP3_all,recorded_ethnicity,Not Hispanic or Latino,150,168,0.8928571428571429
+DCLP3_all,recorded_ethnicity,Hispanic or Latino,18,168,0.10714285714285714
+DCLP3_all,arm,CLC,112,168,0.6666666666666666
+DCLP3_all,arm,SAP,56,168,0.3333333333333333
+external,recorded_gender,M,114,225,0.5066666666666667
+external,recorded_gender,F,111,225,0.49333333333333335
+external,recorded_race,White,211,225,0.9377777777777778
+external,recorded_race,Black/African American,5,225,0.022222222222222223
+external,recorded_race,Asian,4,225,0.017777777777777778
+external,recorded_race,More than one race,3,225,0.013333333333333334
+external,recorded_race,Unknown/not reported,2,225,0.008888888888888889
+external,recorded_ethnicity,Not Hispanic or Latino,215,225,0.9555555555555556
+external,recorded_ethnicity,Hispanic or Latino,9,225,0.04
+external,recorded_ethnicity,Unknown/not reported,1,225,0.0044444444444444444
+external,arm,CGM Only,148,225,0.6577777777777778
+external,arm,CGM+BGM,77,225,0.3422222222222222
+internal,recorded_gender,M,14,26,0.5384615384615384
+internal,recorded_gender,F,12,26,0.46153846153846156
+internal,recorded_race,White,26,26,1.0
+internal,recorded_ethnicity,Not Hispanic or Latino,22,26,0.8461538461538461
+internal,recorded_ethnicity,Hispanic or Latino,4,26,0.15384615384615385
+internal,arm,CLC,21,26,0.8076923076923077
+internal,arm,SAP,5,26,0.19230769230769232

@@ -1,0 +1,134 @@
+{
+  "searched_at_utc": "2026-10-23T00:39:14Z",
+  "local_search_date": "2026-10-22",
+  "local_timezone": "America/New_York",
+  "search_tool": "web.run search_query, open and find",
+  "scope": "Targeted primary-literature and preprint search; not an exhaustive bibliographic or patent search",
+  "queries_issued": [
+    "DCLP3 REPLACE-BG hypoglycemia warning prediction C-peptide CLVer",
+    "CLVer C-peptide unwarned hypoglycemia prediction warning policy",
+    "TN10 AbATE gene 156 week restricted mean treatment biomarker",
+    "\"From Prediction to Practice\" \"Task-Aware\" glucose",
+    "\"DCLP3\" \"REPLACE-BG\" prediction",
+    "\"TN10\" \"AbATE\" gene signature",
+    "\"CLVer\" \"unwarned\"",
+    "\"From Forecasting Leaderboards to Deployment Decisions\" glucose",
+    "\"DCLP3\" \"REPLACE\" hypoglycemia prediction frozen",
+    "\"CLVer\" \"C-peptide\" prediction hypoglycemia events warning",
+    "\"teplizumab\" \"restricted mean\" gene signature",
+    "\"DCLP3\" \"REPLACE-BG\" \"hypoglycemia\"",
+    "\"CLVer\" (\"warning\" OR \"unwarned\" OR \"alarm\") \"C-peptide\"",
+    "\"TN10\" \"restricted mean\"",
+    "\"AbATE\" \"156\" \"gene\"",
+    "\"A Machine Learning Model for Week-Ahead Hypoglycemia Prediction\" authors",
+    "\"teplizumab\" \"restricted mean survival time\" \"gene\"",
+    "\"CLVer\" \"never\" \"warning\"",
+    "\"hypoglycemia\" \"observable\" \"denominator\" prediction"
+  ],
+  "query_result_note": "Queries were issued in batches. No formal database hit counts or zero-result claims are inferred from the returned combined search view. Secondary websites were used only as discovery leads, not as support for technical claims.",
+  "sources_assessed": [
+    {
+      "title": "From Prediction to Practice: A Task-Aware Evaluation Framework for Blood Glucose Forecasting",
+      "authors": "Alireza Namazi; Heman Shakeri",
+      "date": "2026-05-01",
+      "type": "Primary research preprint",
+      "url": "https://arxiv.org/html/2605.00645v1",
+      "evidence": "Sections 3.2, 3.4, 4 and AppendixA inspected. Reports event recall, warning lead time and false alarms per patient-day on DCLP3, DCLP5, PEDAP; uses separate participant train/validation/test splits for each cohort, short-gap interpolation, and a separate simulator action-analysis arm.",
+      "priority_boundary": "Direct precedent for task-aware evaluation and joint event/burden reporting. Does not contain REPLACE-BG or C-peptide and does not perform the specified frozen transfer plus CLVer analysis.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "Hypoglycemia event prediction from CGM using ensemble learning",
+      "authors": "Jesper Fleischer; Troels Krarup Hansen; Simon Lebech Cichosz",
+      "date": "2022-12-09",
+      "type": "Primary research article",
+      "url": "https://www.frontiersin.org/journals/clinical-diabetes-and-healthcare/articles/10.3389/fcdhc.2022.1066744/full",
+      "evidence": "Methods and event-based results inspected. Trains/tests on REPLACE-BG with patient splitting and hour-long history; sustained <70 mg/dL target; event recall, lead time and false positives; external SCGMS evaluation is synthetic.",
+      "priority_boundary": "Precludes claiming first event-based ensemble hypoglycemia evaluation or first REPLACE-BG prediction study. Does not train in DCLP3 and freeze transport to REPLACE-BG or analyze CLVer secretion.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "A Machine Learning Model for Week-Ahead Hypoglycemia Prediction From Continuous Glucose Monitoring Data",
+      "authors": "Flavia Giammarino et al.",
+      "date": "2024-03-06 online; 2025 print",
+      "type": "Primary research article",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/19322968241236208?download=true",
+      "evidence": "Publisher abstract and indexed primary text inspected. Predicts next-week occurrence of sustained <54 mg/dL events, using REPLACE-BG, JDRF, Tidepool and external validation across cohorts.",
+      "priority_boundary": "External real-cohort hypoglycemia prediction is established. Different forecast unit/horizon and cohorts; not the specified minute-scale frozen DCLP3 transport or linked CLVer endpoint analysis.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "Associations of CGM Metrics With Stimulated C-Peptide Measures in Youth With Recent-Onset Type 1 Diabetes",
+      "authors": "Anna Neyman et al.",
+      "date": "2025-06-04 online",
+      "type": "Primary research article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12281974/",
+      "evidence": "Article abstract inspected: 103 CLVer children; compares CGM metrics and stimulated secretion at visits through 52 weeks; evaluates correlation and CGM-based prediction of a C-peptide threshold.",
+      "priority_boundary": "The CLVer CGM/C-peptide association is prior work. The reported analysis is not forward event counts defined by a frozen DCLP3 warning policy with total-event, never-warning and conditional-warnability controls.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "Neutrophil-enriched gene signature correlates with teplizumab therapy resistance in different stages of type1 diabetes",
+      "authors": "Gabriele Sassi et al.",
+      "date": "2025; JCI135(23):e176403",
+      "type": "Primary research article",
+      "url": "https://www.jci.org/articles/view/176403/version/2",
+      "evidence": "Results and Methods inspected. Derives 359 negatively correlated AbATE baseline genes; examines TN10 outcome correlations with placebo-associated genes excluded; integrates both cohorts to construct a 26-gene classifier.",
+      "priority_boundary": "Source of the signature and prior TN10 molecular analysis. No specified 312-gene unweighted standardized score, pooled-median four-cell 156-week additive treatment contrast, or CGM/CLVer combined program identified in inspected text.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "Improved Low-Glucose Predictive Alerts Based on Sustained Hypoglycemia: Model Development and Validation Study",
+      "authors": "Darpit Dave et al.",
+      "date": "2021",
+      "type": "Primary research article",
+      "url": "https://diabetes.jmir.org/2021/2/e26909/",
+      "evidence": "Missing-data and validation methods inspected. Feature-dependent missing records and dependent time-lagged records are excluded; sustained-low alerts evaluated with patient/time validation.",
+      "priority_boundary": "Precedent for sustained-low prediction and alert trade-offs. Different missing-history handling, cohort and endpoint; no specified combined analysis.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "Glycemic-aware metrics and oversampling techniques for predicting blood glucose levels using machine learning",
+      "authors": "Michael Mayo; Lynne Chepulis; Ryan G.Paul",
+      "date": "2019",
+      "type": "Primary research article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225613",
+      "evidence": "Preprocessing inspected: incomplete 24-reading windows discarded in OhioT1DM glucose regression.",
+      "priority_boundary": "Precedent for glycemic-region evaluation and history filtering; not frozen cross-cohort warning transport or secretion-conditioned endpoints.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "A Glycemia Risk Index (GRI) of Hypoglycemia and Hyperglycemia for Continuous Glucose Monitoring Validated by Clinician Ratings",
+      "authors": "David C.Klonoff et al.",
+      "date": "2022",
+      "type": "Primary research article",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563532/",
+      "evidence": "Indexed original methods inspected: combines 14-day traces from DIAMOND, DCLP3, REPLACE-BG, DIAMOND T2D to predict clinician rankings.",
+      "priority_boundary": "Joint use of DCLP3 and REPLACE-BG itself is not new. This is trace-risk ranking rather than the specified frozen warning-policy transfer.",
+      "subsumes_combination": false
+    },
+    {
+      "title": "From Forecasting Leaderboards to Deployment Decisions: A Fail-Closed Certification Protocol",
+      "authors": "Geumyoung Kim",
+      "date": "2026-06-23",
+      "type": "Primary methodological preprint",
+      "url": "https://arxiv.org/html/2606.24996v1",
+      "evidence": "Abstract and full-text DCLP3 search inspected; focuses on fixed decision interfaces and deployment reversals, with Traffic-Hourly as anchor.",
+      "priority_boundary": "General deployment-gate/certification ideas have precedent. Not a clinical CGM/secretion/TN10 combined analysis.",
+      "subsumes_combination": false
+    }
+  ],
+  "subsuming_prior_combined_report_identified": false,
+  "assessment": "The specified empirical combination is the narrow defensible priority target. Search did identify component precedents, including a 2026 DCLP3 task-aware evaluation preprint previously absent from the manuscript audit. No universal-first or first-publication assertion is established by this search.",
+  "proposed_priority_paragraph": "UCP Technology LLC claims priority for the combined empirical analysis presented here and in its companion: retained observable hypoglycemic-event denominators during frozen DCLP3-to-REPLACE-BG warning-policy transport; paired warning gains, losses, opportunities and alarm burden; forward CLVer analysis of earlier secretion against later total and replay-unwarned events under the frozen DCLP3-selected M15 policy, with never-warning and conditional-warnability controls; and a separately reported TN10 treatment-by-score contrast in 156-week stage-3-free time using the fixed AbATE-derived gene set. This is the first report of that specified combination identified in our search of primary studies and preprints through 22 October 2026.",
+  "claim_exclusions": [
+    "new prediction algorithm",
+    "new theorem or mathematical nesting identity",
+    "first event-based or burden-aware CGM evaluation",
+    "first real-cohort external hypoglycemia prediction",
+    "first CLVer secretion/CGM association",
+    "discovery of the AbATE gene list or TN10 molecular response association",
+    "new patient data or causal biological unification"
+  ],
+  "revision_guidance": "Cite Namazi and Shakeri 2026 in main prior work; keep first claim tied to the precise combined analysis and documented search. TN10 companion endpoint remains the released-data contrast, with original follow-up provenance limitation retained."
+}

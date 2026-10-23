@@ -1,0 +1,16 @@
+{
+  "seed": 20261023,
+  "requested_draws": 1000,
+  "valid_draws": 1000,
+  "undefined": 0,
+  "participants": 29,
+  "operating_points": 10772,
+  "original_comparator": "M15:0.04",
+  "original_switch": "switch:0.04:0.01",
+  "original_card003": "M15:0.04",
+  "same_comparator": 0.507,
+  "same_switch": 0.254,
+  "same_joint": 0.212,
+  "same_card003": 0.507,
+  "scope": "Conditional validation-person selection stability given originally trained models. No external choice, no refitting, no corrected confirmatory inference."
+}

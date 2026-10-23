@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "authoritative_source": "manuscript/paper.md",
+  "source_sha256": "17efef8ef3eea33143009d8fd43e3044f3f72cecee1627b286d1d340ae3c50e8",
+  "formats": {
+    "paper.md": "17efef8ef3eea33143009d8fd43e3044f3f72cecee1627b286d1d340ae3c50e8",
+    "paper.tex": "93c83040de27dc3eeb58e4f79683d82be50d3e122190f4c2e5be81678bc7616f",
+    "paper.docx": "e0616d1dacabb6ffa872988916f2840899962c4693eb20098975201a400f5687",
+    "paper.pdf": "e0f2ec733cdf921c78ee07c6bbf88ae3f82d3472dfbddbbb144be416650e4f82"
+  },
+  "pages_tex": 18,
+  "pages_word": 18,
+  "figures": 4,
+  "tables": [
+    {
+      "table": 1,
+      "rows": 5,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 2,
+      "rows": 6,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 3,
+      "rows": 7,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 4,
+      "rows": 10,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 5,
+      "rows": 8,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 6,
+      "rows": 4,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 7,
+      "rows": 6,
+      "numeric_cells_match": true
+    },
+    {
+      "table": 8,
+      "rows": 5,
+      "numeric_cells_match": true
+    }
+  ],
+  "clean_build_tex_byte_identical": true,
+  "clean_build_docx_xml_parts_identical": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "word/document.xml",
+    "word/_rels/document.xml.rels",
+    "word/numbering.xml",
+    "word/styles.xml",
+    "word/settings.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "word/theme/theme1.xml",
+    "word/footnotes.xml",
+    "word/_rels/footnotes.xml.rels",
+    "word/comments.xml",
+    "word/footer1.xml",
+    "word/media/rId31.png",
+    "word/media/rId35.png",
+    "word/media/rId39.png",
+    "word/media/rId26.png"
+  ],
+  "clean_build_pdf_pages_pixel_identical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "record_scope": "Historical authoritative-paper build or retained-evidence verification, before this portable original-source release. Current release checks are in verification.json."
+}

@@ -1,0 +1,60 @@
+{
+  "outcome": "unwarned",
+  "exposure": "auc_nmol_l",
+  "n_intervals": 276,
+  "n_children": 102,
+  "events": 180,
+  "observed_days": 7293.402777777777,
+  "n_boot": 0,
+  "seed": 20261022,
+  "status": "secondary_estimate_robust_interval",
+  "dropped_constant_nuisance_columns": [],
+  "design_columns": [
+    "intercept",
+    "exposure",
+    "exposure_squared",
+    "target_39",
+    "target_52",
+    "lag_centered_30d",
+    "age_centered_12",
+    "intensive_tandem",
+    "intensive_medtronic",
+    "cohort_B"
+  ],
+  "omitted_algebraically_constant_lag": false,
+  "beta": -0.10614861978504928,
+  "rr": 0.8992909857107411,
+  "robust_se": 0.26187731662364255,
+  "robust_95_ci": [
+    0.5382572201351621,
+    1.5024866304208924
+  ],
+  "exposure_min": 0.028000000000000004,
+  "exposure_max": 2.4699999999999998,
+  "coefficients": {
+    "intercept": -3.0444298577039994,
+    "exposure": -0.10614861978504928,
+    "exposure_squared": -0.02385127834648193,
+    "target_39": -0.258923942874573,
+    "target_52": -0.6275221202499794,
+    "lag_centered_30d": 0.2540739461654308,
+    "age_centered_12": 0.0042260758741658605,
+    "intensive_tandem": -0.352170644097963,
+    "intensive_medtronic": 0.5180136329783781,
+    "cohort_B": 0.2593859896126543
+  },
+  "rr_interpretation": "Linear coefficient at exposure zero; not a constant per-0.20 RR when squared term is present",
+  "local_per_0_20_rr": {
+    "0.05": 0.8469101483724115,
+    "0.25": 0.8058234641984079,
+    "0.5": 0.7681056960577398,
+    "0.75": 0.714665427332199,
+    "0.95": 0.6319774454791827
+  },
+  "fit_warnings": [],
+  "failed_bootstrap": 0,
+  "reason": "not_a_primary_5000_bootstrap_inference",
+  "elapsed_seconds": 0.019233799990615807,
+  "analysis_name": "quadratic_AUC",
+  "inferential_role": "sensitivity_cluster_sandwich_only"
+}

@@ -1,0 +1,50 @@
+{
+  "full_primary": {
+    "children": 102,
+    "intervals": 276,
+    "intervals_per_child": {
+      "1": 7,
+      "2": 16,
+      "3": 79
+    },
+    "multiple_interval_children": 95,
+    "raw_varying_children": 95,
+    "after_visit_varying_children": 95,
+    "after_visit_lag_varying_children": 95,
+    "within_auc_sum_squares": 3.143618795572917,
+    "after_visit_sum_squares": 2.3363377876716456,
+    "after_visit_lag_sum_squares": 2.3332934062529778,
+    "after_visit_retained_fraction": 0.7432000950502822,
+    "after_visit_lag_retained_fraction": 0.74223166292901,
+    "repeated_child_auc_range_quantiles": {
+      "0.25": 0.09006250000000002,
+      "0.5": 0.191125,
+      "0.75": 0.27509375
+    },
+    "interpretation": "Unweighted design geometry, not power or causal identification; tolerance 1e-10 nmol/L"
+  },
+  "within_child_sample": {
+    "children": 58,
+    "intervals": 164,
+    "intervals_per_child": {
+      "1": 1,
+      "2": 8,
+      "3": 49
+    },
+    "multiple_interval_children": 57,
+    "raw_varying_children": 57,
+    "after_visit_varying_children": 57,
+    "after_visit_lag_varying_children": 57,
+    "within_auc_sum_squares": 1.926395931640625,
+    "after_visit_sum_squares": 1.2239015216557838,
+    "after_visit_lag_sum_squares": 1.2167949119697055,
+    "after_visit_retained_fraction": 0.6353322811543948,
+    "after_visit_lag_retained_fraction": 0.6316432110264144,
+    "repeated_child_auc_range_quantiles": {
+      "0.25": 0.08550000000000002,
+      "0.5": 0.191125,
+      "0.75": 0.2721875
+    },
+    "interpretation": "Unweighted design geometry, not power or causal identification; tolerance 1e-10 nmol/L"
+  }
+}

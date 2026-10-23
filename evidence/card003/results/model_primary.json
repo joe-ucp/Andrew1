@@ -1,0 +1,57 @@
+{
+  "outcome": "unwarned",
+  "exposure": "auc_nmol_l",
+  "n_intervals": 276,
+  "n_children": 102,
+  "events": 180,
+  "observed_days": 7293.402777777777,
+  "n_boot": 5000,
+  "seed": 20261022,
+  "status": "estimated",
+  "dropped_constant_nuisance_columns": [],
+  "design_columns": [
+    "intercept",
+    "exposure",
+    "target_39",
+    "target_52",
+    "lag_centered_30d",
+    "age_centered_12",
+    "intensive_tandem",
+    "intensive_medtronic",
+    "cohort_B"
+  ],
+  "omitted_algebraically_constant_lag": false,
+  "beta": -0.26875901639249566,
+  "rr": 0.7643274238364611,
+  "robust_se": 0.08523087249836885,
+  "robust_95_ci": [
+    0.6467415929874664,
+    0.903291851278541
+  ],
+  "exposure_min": 0.028000000000000004,
+  "exposure_max": 2.4699999999999998,
+  "coefficients": {
+    "intercept": -2.820073305140432,
+    "exposure": -0.26875901639249566,
+    "target_39": -0.2781131268556032,
+    "target_52": -0.6786409417094758,
+    "lag_centered_30d": 0.27440982593119734,
+    "age_centered_12": 0.010181612093442788,
+    "intensive_tandem": -0.34128518193416457,
+    "intensive_medtronic": 0.5378847460059794,
+    "cohort_B": 0.25083471781506844
+  },
+  "fit_warnings": [],
+  "failed_bootstrap": 0,
+  "bootstrap_95_ci": [
+    0.6262491569898255,
+    0.8962013896997023
+  ],
+  "numeric_H1_condition": true,
+  "full_20pct_magnitude_95pct": false,
+  "target_magnitude_excluded": false,
+  "reason": "complete",
+  "elapsed_seconds": 27.680056800003513,
+  "analysis_name": "primary",
+  "inferential_role": "primary_bootstrap"
+}

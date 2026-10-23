@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-23T13:31:16.213286+00:00",
+  "scope": "Completed checks from the project root after consolidating the public repository in place. Local private directories are excluded from public content and Git. The previous full scientific reproduction is recorded separately and was not repeated during this consolidation.",
+  "completed_scientific_reproduction": {
+    "status": "PASS",
+    "record": "scientific_verification.json",
+    "original_source_completed_utc": "2026-10-23T06:11:03.713742+00:00",
+    "tests_at_that_execution": 82,
+    "aggregate_evidence_comparisons": 54,
+    "exact_figures": 4,
+    "exact_reconstruction_outputs": 7,
+    "performed_before_checkout_cleanup": true,
+    "full_source_run_repeated_during_cleanup": false
+  },
+  "current_checkout_checks": {
+    "environment": {
+      "python": "3.12.14",
+      "platform": "Windows x64",
+      "pinned_packages": 39,
+      "pip_check": "PASS",
+      "git": "git version 2.43.0.windows.1"
+    },
+    "git": {
+      "status": "PASS",
+      "ordinary_git_add_command": "git add .",
+      "tracked_content_files": 148,
+      "tracked_evidence_files": 54,
+      "tracked_evidence_files_under_results_directories": 26,
+      "required_files_ignored": 0,
+      "root_git_metadata_excluded_from_content_verification": true,
+      "private_and_local_data_ignore_probes_passed": 13,
+      "commits_created": 0,
+      "remotes_configured": 0,
+      "root_is_public_repository": true,
+      "nested_release_folder_present": false,
+      "root_private_directories_excluded": [
+        "_UCP",
+        "_private"
+      ],
+      "gitignore_mode": "Default ignore with explicit reviewed public-file entries",
+      "reachable_public_commits": 0,
+      "private_or_non_allowlisted_index_paths": 0,
+      "private_history_in_public_repository": false,
+      "nested_private_and_git_paths_rejected": true,
+      "scope": "Git state at the project-root verification before the initial public commit and push."
+    },
+    "integrity": {
+      "status": "PASS",
+      "content_files": 148,
+      "hashes_checked": 147,
+      "exact_allowlist": true,
+      "unchanged_scientific_evidence_files": 54,
+      "unchanged_manuscript_and_figure_files": 8,
+      "local_private_content_excluded": true
+    },
+    "tests": {
+      "status": "PASS",
+      "tests": 106,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 2,
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "imported_scientific_modules": {
+        "card001_core": "src/card001_core.py",
+        "card001_evaluate": "src/card001_evaluate.py",
+        "card001_models": "src/card001_models.py",
+        "card001_replacebg": "src/card001_replacebg.py",
+        "card001_stress": "src/card001_stress.py",
+        "card002_run": "src/card002_run.py",
+        "card003_analyze": "src/card003_analyze.py",
+        "card003_boundary": "src/card003_boundary.py",
+        "card003_core": "src/card003_core.py",
+        "card003_data": "src/card003_data.py",
+        "card003_policy": "src/card003_policy.py",
+        "revision_clinical": "src/revision_clinical.py",
+        "revision_warning": "src/revision_warning.py",
+        "test_card001_core": "tests/test_card001_core.py",
+        "test_card001_models": "tests/test_card001_models.py",
+        "test_card001_stress": "tests/test_card001_stress.py",
+        "test_card002": "tests/test_card002.py",
+        "test_card003_core": "tests/test_card003_core.py",
+        "test_card003_data": "tests/test_card003_data.py",
+        "test_clinical_reproduction": "tests/test_clinical_reproduction.py",
+        "test_release_checkout": "tests/test_release_checkout.py",
+        "test_release_comparison": "tests/test_release_comparison.py",
+        "test_replacebg_clock": "tests/test_replacebg_clock.py",
+        "test_revision_clinical": "tests/test_revision_clinical.py",
+        "test_revision_warning": "tests/test_revision_warning.py"
+      },
+      "scope": "Implementation and numerical unit checks; source-data reproduction is separate",
+      "passed": 104,
+      "skip_reason": "Two real symlink-creation tests were skipped because Windows returned WinError 1314 (required privilege unavailable). Actual root Git and private-directory junction rejection tests passed.",
+      "entrypoint_test_scope": "verify, tests and reproduce dispatch are exercised with real integrity checks; expensive analysis dispatch is mocked in the checkout fixture. Full scientific reproduction was not rerun here.",
+      "privacy_tests": "Ignored root private folders are pruned; staged private content, non-allowlisted index paths, deleted private history, private history on another branch, non-allowlisted history, filesystem links and junctions are rejected."
+    },
+    "input_identity_check": {
+      "status": "PASS",
+      "original_provider_files": 6
+    },
+    "comparison_of_previously_generated_results": {
+      "status": "PASS",
+      "scope": "Compare retained results from the completed original-source run with the unchanged scientific evidence; no refitting.",
+      "evidence_files": 54,
+      "figures_with_exact_pixels": 4,
+      "failures": 0,
+      "executed_from_project_root": true
+    },
+    "intermediate_reconstruction": {
+      "status": "PASS",
+      "scope": "Retained-intermediate reconstruction; no model training or clinical refitting",
+      "inputs_checked": 25,
+      "input_hashes_unchanged": true,
+      "exact_outputs": {
+        "endpoints/event_opportunity_warning_decomposition.csv": "d26aa0d38b62dfcb2a6a7263374870ff8d894f25347f0836583257ef12397b46",
+        "endpoints/alarm_composition.csv": "ef87ecb2798816daef6c6d78a7b705f0db4e2606ae1297e62654a131de8d0ca4",
+        "endpoints/saved_quadratic_contrasts.csv": "e8668e1865fa4e0830ed2addac34a06f130620985801bc2d0cba0daa62e625a3",
+        "tn10/bootstrap_distribution_summary.json": "7dc4599240cd93c266d3d0d87e2653ffa9a75bde759fcca71f6010eb2859d791",
+        "tn10/bootstrap_assignment_summary.json": "d8e8d01ce64f18fd1841ee7f81c11a2e2d17a878364bb0da9bbc90ed2c0889cd",
+        "tn10/followup_profile.csv": "0329787604983f6e05368c3d1247a0a7bf16d1a3a8543c3acc84b09fd8c0ea55",
+        "tn10/followup_profile_summary.json": "9bf0e9d5c586a9739b3d489ac1c86282affcf1176526c29f0f619edd6322b1c5"
+      },
+      "executed_from_project_root": true
+    },
+    "documentation": {
+      "status": "PASS",
+      "markdown_files_checked": 15,
+      "relative_links_and_fragments_checked": 108,
+      "broken_links": 0,
+      "repository_contains_completed_verification_records": true,
+      "last_checked_utc": "2026-10-23T14:12:10.575739+00:00",
+      "scope": "Link check refreshed after the documentation-only README editorial update."
+    }
+  },
+  "cleanup_changes": [
+    "Place the public README, manuscript, code, evidence, documentation and clean Git metadata directly in the project root.",
+    "Preserve original working files and Git history privately; keep the existing private reference directory unchanged.",
+    "Permit only explicitly reviewed public files through ordinary Git staging; exclude local private directories before scanning and reject private or non-allowlisted paths in the index and reachable history.",
+    "Run the full included test suite, result comparisons, retained-intermediate reconstruction, integrity and link checks from the project root."
+  ],
+  "scientific_invariance": {
+    "thresholds_models_seeds_endpoints_and_findings_unchanged": true,
+    "scientific_source_edits": "No scientific analysis source changed during project-root consolidation. Earlier descriptions-only edits remain preserved; formulas, configuration identifiers and values are unchanged.",
+    "full_source_reproduction_not_claimed_for_cleanup": true,
+    "license_selection_changed": false,
+    "attribution": "UCP Technology LLC"
+  },
+  "commands": [
+    "git add .",
+    "git ls-files -z",
+    "git check-ignore --no-index -z --stdin",
+    "python -I -B src/release.py verify",
+    "python -I -B src/release.py tests --output-root NEW_TEST_OUTPUT",
+    "python -I -B src/release.py inputs --inputs-root INPUTS",
+    "python -I -B -m pip check",
+    "python -I -B src/compare_results.py --run-root COMPLETED_RUN --output NEW_COMPARISON_REPORT",
+    "python -I -B src/reconstruct_paper.py --data-root COMPLETED_RUN --raw-root INPUTS --output-root NEW_RECONSTRUCTION_OUTPUT"
+  ],
+  "command_context": "Commands run directly from the project root with the pinned environment and Git. Named roots denote reviewer-chosen separate directories; COMPLETED_RUN holds the previously completed scientific run. Comparison reports and generated outputs are outside the repository. Link and preservation checks were additional local review checks.",
+  "publication": {
+    "status_at_recorded_computational_checks": "Not yet published; this describes the verification snapshot, not the current availability of the repository.",
+    "repository_url": "https://github.com/joe-ucp/Andrew1",
+    "license_selected": false
+  },
+  "previous_checkout_cleanup": {
+    "status": "PASS",
+    "recorded_utc": "2026-10-23T13:03:53.713177+00:00",
+    "tests_passed": 93,
+    "tests_skipped": 2,
+    "scope": "Earlier checkout cleanup; superseded by the project-root checks below, without a new scientific refit."
+  },
+  "readme_editorial_update": {
+    "date": "2026-10-23",
+    "changes": [
+      "Lead with the distinction between fewer underlying events and better warning performance.",
+      "Simplify the findings table while retaining negative and uncertain findings.",
+      "Keep private-folder and Git allowlist details in the reproduction guide."
+    ],
+    "scientific_files_changed": false,
+    "implementation_tests_rerun": false,
+    "scope": "Documentation-only update; the implementation test and scientific reproduction results above retain their original execution scope.",
+    "relative_links_and_fragments_checked": 108,
+    "broken_links": 0
+  }
+}

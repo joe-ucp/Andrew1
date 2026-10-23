@@ -1,0 +1,14 @@
+{
+  "authoritative_source": "manuscript/paper.md",
+  "designated_pdf": "manuscript/paper.pdf",
+  "pandoc": "3.9",
+  "xelatex": "MiKTeX 25.12",
+  "word_renderer": "LibreOffice 26.2.6.3",
+  "python": "3.12.14",
+  "python_docx": "1.2.0",
+  "fonts": [
+    "Times New Roman",
+    "Arial",
+    "Courier New"
+  ]
+}

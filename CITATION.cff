@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when using this research."
+title: "External warning inferiority and the event frequency contribution to residual hypoglycemia"
+type: software
+authors:
+  - name: "UCP Technology LLC"
+date-released: 2026-10-22
+preferred-citation:
+  type: unpublished
+  title: "External warning inferiority and the event frequency contribution to residual hypoglycemia"
+  authors:
+    - name: "UCP Technology LLC"
+  year: 2026
+  date-released: 2026-10-22
+abstract: "Computational analyses of frozen hypoglycemia-warning transport, earlier secretion and later total and replay-unwarned events, with a separate TN10 molecular treatment-benefit contrast."
+keywords:
+  - type 1 diabetes
+  - hypoglycemia
+  - warning-policy evaluation
+  - C-peptide
+  - reproducibility

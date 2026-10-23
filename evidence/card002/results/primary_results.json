@@ -1,0 +1,107 @@
+{
+  "cells": {
+    "low_treated": {
+      "n": 22,
+      "mean_weeks": 144.37662337662337,
+      "sd_weeks": 25.831386632989407,
+      "variance": 667.2605353829838,
+      "se_weeks": 5.507270134612082,
+      "ci95_weeks": [
+        132.9236281580288,
+        155.82961859521794
+      ]
+    },
+    "low_placebo": {
+      "n": 15,
+      "mean_weeks": 74.44761904761906,
+      "sd_weeks": 59.120740877830976,
+      "variance": 3495.262001943635,
+      "se_weeks": 15.264909655685562,
+      "ci95_weeks": [
+        41.707644025836714,
+        107.1875940694014
+      ]
+    },
+    "high_treated": {
+      "n": 20,
+      "mean_weeks": 117.34285714285713,
+      "sd_weeks": 47.36392459861682,
+      "variance": 2243.341353383459,
+      "se_weeks": 10.590895508368163,
+      "ci95_weeks": [
+        95.17585808611764,
+        139.5098561995966
+      ]
+    },
+    "high_placebo": {
+      "n": 16,
+      "mean_weeks": 116.58928571428572,
+      "sd_weeks": 57.845933658437275,
+      "variance": 3346.1520408163265,
+      "se_weeks": 14.461483414609319,
+      "ci95_weeks": [
+        85.76536346209646,
+        147.413207966475
+      ]
+    }
+  },
+  "delta_low": {
+    "estimate_weeks": 69.92900432900431,
+    "estimate_months": 16.0822350818244,
+    "se_weeks": 16.22798481425936,
+    "df": 17.68201247795286,
+    "ci95_weeks": [
+      35.791271312734665,
+      104.06673734527396
+    ],
+    "p_two_sided_zero": 0.0004382187608391193
+  },
+  "delta_high": {
+    "estimate_weeks": 0.753571428571405,
+    "estimate_months": 0.1733059548254566,
+    "se_weeks": 17.924886895603926,
+    "df": 28.852645878462308,
+    "ci95_weeks": [
+      -35.915072974297274,
+      37.422215831440084
+    ],
+    "p_two_sided_zero": 0.9667559879684556
+  },
+  "theta": {
+    "estimate_weeks": 69.17543290043291,
+    "estimate_months": 15.908929126998945,
+    "se_weeks": 24.17951739286841,
+    "df": 45.574236777859745,
+    "ci95_weeks": [
+      20.49231564793609,
+      117.85855015292972
+    ],
+    "p_two_sided_zero": 0.006356074707667574
+  },
+  "placebo_low_minus_high": {
+    "estimate_weeks": -42.141666666666666,
+    "estimate_months": -9.691718001368926,
+    "se_weeks": 21.027409953374256,
+    "df": 28.774373597292154,
+    "ci95_weeks": [
+      -85.16220127970621,
+      0.8788679463728712
+    ],
+    "p_two_sided_zero": 0.0545498496768896
+  },
+  "margin_weeks": 26,
+  "cohort_n": 73,
+  "source_gene_n": 359,
+  "primary_gene_n": 312,
+  "gene_mapping": "exact_symbol_intersection",
+  "expression": "log2(1+CPM); library sum over all 13021 supplied rows",
+  "standardization": "pooled baseline gene mean and sample SD",
+  "score": "unweighted mean standardized gene expression",
+  "split": "high iff score strictly exceeds pooled median",
+  "horizon_weeks": 156,
+  "estimand": "treatment effect low minus treatment effect high",
+  "interval": "four-cell Welch-Satterthwaite 95% t interval",
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261022,
+  "score_median": 0.05306630716256619
+}

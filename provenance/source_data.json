@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "DCLP3 release 3",
+    "url": "https://public.jaeb.org/dataset/573",
+    "terms": "Jaeb registration and data-use terms",
+    "bytes": 195304936,
+    "sha256": "6dbe8580fe38612622f0ebf5da58fed04b4ed556d1e06bf3a67813791222f5dc",
+    "filename": "DCLP3 Public Dataset - Release 3 - 2022-08-04.zip",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  },
+  {
+    "dataset": "REPLACE-BG",
+    "url": "https://public.jaeb.org/dataset/546",
+    "terms": "Jaeb registration and data-use terms",
+    "bytes": 174942355,
+    "sha256": "6d4bb4e47e71fff72cd3eb94c5a5e60c9f32e066606bb3883821debf528dc004",
+    "filename": "Replace-BG Dataset.zip",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  },
+  {
+    "dataset": "CLVer",
+    "url": "https://public.jaeb.org/dataset/591",
+    "terms": "Jaeb registration and data-use terms",
+    "bytes": 86726379,
+    "sha256": "8421a9a9ff7dd1485ce0e4bdb984b5ea037300a0e7216f9f445334e56d32d385",
+    "filename": "CLVerPublicDataset.zip",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  },
+  {
+    "dataset": "TN10 counts version 1",
+    "url": "https://doi.org/10.5281/zenodo.17063348",
+    "terms": "CC BY-SA 4.0",
+    "bytes": 8508942,
+    "sha256": "74085ba79ef79c44d5e25679e36f3615562c0a644700f2332426d71b942e1ee8",
+    "filename": "TN10_raw_counts.csv",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  },
+  {
+    "dataset": "TN10 metadata version 1",
+    "url": "https://doi.org/10.5281/zenodo.17063348",
+    "terms": "CC BY-SA 4.0",
+    "bytes": 44999,
+    "sha256": "dabd7beff35f82aef231f9c9e0fd5b91974cdbc9f175edd8831c475824517586",
+    "filename": "TN10_metadata.csv",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  },
+  {
+    "dataset": "Fixed AbATE signature",
+    "url": "https://www.jci.org/articles/view/176403/sd/6",
+    "terms": "CC BY 4.0",
+    "bytes": 210945,
+    "sha256": "93b00f6ccb5688eea28f936cfc8e72117e65f70b612c656531cea11c5b51f90c",
+    "filename": "JCI176403_Table6.pdf",
+    "redistributed": false,
+    "acquisition": "Provider download; see docs/DATASETS.md"
+  }
+]

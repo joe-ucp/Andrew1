@@ -1,0 +1,29 @@
+{
+  "status": "estimated_exploratory",
+  "seed": 20261023,
+  "n_boot": 5000,
+  "joint_failures": 0,
+  "unwarned_failures": 0,
+  "events_failures": 0,
+  "difference_log_rr": -0.01259041967979263,
+  "difference_log_rr_95_ci": [
+    -0.11618579065500313,
+    0.07571766041361556
+  ],
+  "ratio_of_rrs": 0.9874885080623478,
+  "ratio_of_rrs_95_ci": [
+    0.8903097966903069,
+    1.078657983311422
+  ],
+  "inference": "Paired whole-child bootstrap; interval containing one does not establish equivalence",
+  "marginal_rr_95_ci": {
+    "unwarned": [
+      0.6315372125294162,
+      0.8984872854250449
+    ],
+    "events": [
+      0.6788378888816207,
+      0.8721796774021737
+    ]
+  }
+}

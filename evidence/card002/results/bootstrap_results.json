@@ -1,0 +1,29 @@
+{
+  "repetitions": 10000,
+  "seed": 20261022,
+  "valid": 10000,
+  "unusable": 0,
+  "recomputed_in_each_resample": [
+    "gene means",
+    "gene sample SDs",
+    "composite scores",
+    "pooled median",
+    "group labels"
+  ],
+  "percentile_ci95_weeks": {
+    "delta_low": [
+      27.17565311500094,
+      94.61941964285711
+    ],
+    "delta_high": [
+      -28.951250000000016,
+      45.94156249999997
+    ],
+    "theta": [
+      1.4158912763822962,
+      104.86590378371628
+    ]
+  },
+  "theta_bootstrap_sd": 26.43806531836917,
+  "theta_negative_fraction": 0.0217
+}

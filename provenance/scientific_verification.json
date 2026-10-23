@@ -1,0 +1,844 @@
+{
+  "status": "PASS",
+  "scope": "Completed scientific reproduction before the Git-checkout cleanup. The full original-source analyses were not repeated as part of that cleanup.",
+  "completed_utc": "2026-10-23T06:11:44.115651+00:00",
+  "historical_record_sha256": "c5a06e6d49931f6cc36b10e3315257423562124b953a4bb72f5cc5b49605cd26",
+  "scientific_source_sha256_at_execution": {
+    "src/build_paper_formats.py": "04d135119116222527a0576b65a7e58b6a7990d75715a72ac38bcc4df33dfd63",
+    "src/card001_aggregate.py": "6a62c516d0c06deb7c98eca8d0d9680164d12ecfe16a3adfe3e8169973fbef32",
+    "src/card001_clock_audit.py": "db01875bb276160611ffdc3307c9a558844cd50b74fd87f76b866d37a3303b15",
+    "src/card001_conservative_clock.py": "07c328b833105bc8757fd86756c67cc43c32bdfe28a56e59090af0e142b546fc",
+    "src/card001_core.py": "a4695f371c82923ff7ce15b38ee3c73a50d7816c23e22bdff0ecb545bfc100f5",
+    "src/card001_data.py": "b81455a4384e29b71965ff5a141857af62acadf0eed91baefb5133c268a20de2",
+    "src/card001_dataflow.py": "31dd79d03f5df76a43c93a5eba14552306463ae1d8e5ec4f173c2b42792de205",
+    "src/card001_development_audit.py": "477073fbb8b6c204bf8fc46dbf5a2cb915f8037e2102db7a0e419a46a84dc164",
+    "src/card001_evaluate.py": "0db94f4df70d292b1707ca1420628d18422dc62ea92b9b3e46f85c9203582477",
+    "src/card001_models.py": "4e75e4bb052d3629075b5b018cbee1c1bf49d80ebdb297a566a4bb7f4a40352d",
+    "src/card001_replacebg.py": "6fa2e76d1990623edc9920d315e69b813f1a96e3e2cd14e04213fd80ea2d273a",
+    "src/card001_result_audit.py": "41fa05ff4e0dde0275500c8d01062eb36c30fda93c3ff315f9dd58659bdd44d2",
+    "src/card001_run.py": "5eefd07f81b59d0ec4c9a37887865bdc4b542b16b83bd4dc7f0e3e3ba7c049e4",
+    "src/card001_sensitivity.py": "a4ea9fa603fda17e8388bffc0297cd1a8b2dcd3955a337169b874444d23515de",
+    "src/card001_stress.py": "134ae7e2054ce29a545f76991480c8ec7cadb4a9babcb413c1339101b22371a7",
+    "src/card002_run.py": "619023433e660b9ee7e5dee832c8e826e7a1a7b9dce4e6434762d35b90a5120d",
+    "src/card003_analyze.py": "43e1406f7dae91f692955a195c10277a44357249ee1e1b06bb600289fd50d867",
+    "src/card003_boundary.py": "a1aca7355d1e3d29452259dfc517cb8a7d6d1ea0de42e85d7b8692067948fc11",
+    "src/card003_core.py": "66598ae294f27a62b503fd7e5328e20159aa42cd24cf907d9cc3df60dc8f1202",
+    "src/card003_data.py": "18046affa3c81b87b980e6d0200377f8300803681ec819bb9f1201b09fd4d522",
+    "src/card003_diagnostics.py": "f9bcc269ce5e3aef7f646b6278183cfb888f955eb2f9a83c8d6af530b2433b93",
+    "src/card003_policy.py": "0c6a81fb913aff488463fb9ab4386d1b6e5b4360de23886445f552aa17ebcfa1",
+    "src/card003_report.py": "88b1ea0f4feb9421185ac4d463440db59385c24ad07fa65a879706f72bb88043",
+    "src/card003_run.py": "27ed59a7c331080e7f9c5365aecb90e7c87aa4f917f5edf2c292b44e7f035fd8",
+    "src/compare_results.py": "095f10cb01ecf421532d50e82546c5909071ab3cd8f0eb1ad69de2e8b807de77",
+    "src/paper_endpoint_decomposition.py": "667501fbbfea47927c2a5e9d8988fbfe6822911aea4a04a17f438838c5f11441",
+    "src/paper_tn10_diagnostics.py": "3356fee529d0b9e55e0dc1e2f1a7ea5638ed7fdd73b7d9ad1f589886604c342a",
+    "src/reconstruct_paper.py": "ab38ac64aec9fb85f0848b51a08c57e7177fb1f59a4bd5b20edd0f03e1cb8ebc",
+    "src/release.py": "0344bc081997258c02406c5f93807fb3086f95781dd5614a657b87c3f538a288",
+    "src/reproduce_all.py": "dbc6e6cd7d671ab8f46df5f5a920a78344a5a4d850e3d606adbb51fb9829cf36",
+    "src/reproduce_clinical.py": "c4a32f7c82d588a136590526a7e87dad161c20a5ca73ae2970a73b5e99ce801c",
+    "src/reproduce_tn10.py": "d6a29b277e5563f51a419319cc1ffeda85b81472b577b909a89be8c4b47e05cb",
+    "src/reproduce_warning.py": "c2fab9ce97b64f89fa706c046c23a7aa6d320ce3e3907558f5472cda6be772b4",
+    "src/revision_clinical.py": "e869cc5cc5e250c0e90b538a03aa864d57ebc37c1064a255c3b2baeedb3121c6",
+    "src/revision_clinical_figure.py": "cc5518b9a30fe1193b20a65adfa27be6453b11e3b8aded4a31941ffe26f55167",
+    "src/revision_tn10.py": "cfcfb90902af44f032645bef7c4b7fdb129168749e8aa903a453e87f11df8b5a",
+    "src/revision_warning.py": "cbe2f4f5e91d96c86aa19d8ac2d50b8972a3cd29e66059371dc1ef446724a345",
+    "src/run_tests.py": "7e7b5600e12225b747636bcaea23525823751933c096898ddbc1ff9c94234aed",
+    "src/verify_card002.py": "0802715cef33baa004d137c0fa68f769defb21bd83779e879faa1607d5467fd4",
+    "src/verify_card003.py": "56ae2f6d840cfc227b2fe2fdba451e842326f2832e08731492a30cfd64dafaec",
+    "src/verify_card003_boundary.py": "ddd53430b01cbf1d395a7164ff2d2615236e767d8822cf939f98fb70eceaa68d",
+    "src/verify_card003_clocks.py": "3c9a6af6fe082be3444fdb1165636c966094bd22e63a19b3b7d7141f2b15bfbc",
+    "src/verify_revision_clinical.py": "0c9aa3188544d48ccd3450d63868e9f9b12c690c78a82d42a8d3e541a4c29b32",
+    "src/verify_revision_tn10_clinical.py": "901f8597a13f961b12f448e2373942121bca48a7b68cc48ade03bb308bcc9dc7"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "cffi": "2.1.1",
+      "charset-normalizer": "3.5.2",
+      "cloudpickle": "3.1.2",
+      "contourpy": "1.4.0",
+      "cryptography": "50.0.2",
+      "cycler": "0.12.1",
+      "fonttools": "4.67.0",
+      "formulaic": "1.2.2",
+      "interface_meta": "2.0.1",
+      "joblib": "1.6.0",
+      "kiwisolver": "1.5.1",
+      "llvmlite": "0.50.0",
+      "lxml": "6.1.1",
+      "matplotlib": "3.11.2",
+      "narwhals": "2.27.1",
+      "numba": "0.68.0",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pandas": "3.1.0",
+      "patsy": "1.0.3",
+      "pdfminer.six": "20251230",
+      "pdfplumber": "0.11.9",
+      "pillow": "13.0.0",
+      "pycparser": "3.11",
+      "pyparsing": "3.3.3",
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.14.0",
+      "psutil": "7.0.0",
+      "python-dateutil": "3.0.0",
+      "python-docx": "1.2.0",
+      "reportlab": "4.4.9",
+      "scikit-learn": "1.7.2",
+      "scipy": "1.18.1",
+      "six": "1.17.0",
+      "statsmodels": "0.15.0",
+      "threadpoolctl": "3.7.0",
+      "typing_extensions": "4.16.0",
+      "tzdata": "2026.5",
+      "wrapt": "2.5.1"
+    }
+  },
+  "tests": {
+    "status": "PASS",
+    "tests": 82,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "imported_scientific_modules": {
+      "card001_core": "src/card001_core.py",
+      "card001_evaluate": "src/card001_evaluate.py",
+      "card001_models": "src/card001_models.py",
+      "card001_replacebg": "src/card001_replacebg.py",
+      "card001_stress": "src/card001_stress.py",
+      "card002_run": "src/card002_run.py",
+      "card003_analyze": "src/card003_analyze.py",
+      "card003_boundary": "src/card003_boundary.py",
+      "card003_core": "src/card003_core.py",
+      "card003_data": "src/card003_data.py",
+      "card003_policy": "src/card003_policy.py",
+      "revision_clinical": "src/revision_clinical.py",
+      "revision_warning": "src/revision_warning.py",
+      "test_card001_core": "tests/test_card001_core.py",
+      "test_card001_models": "tests/test_card001_models.py",
+      "test_card001_stress": "tests/test_card001_stress.py",
+      "test_card002": "tests/test_card002.py",
+      "test_card003_core": "tests/test_card003_core.py",
+      "test_card003_data": "tests/test_card003_data.py",
+      "test_clinical_reproduction": "tests/test_clinical_reproduction.py",
+      "test_release_comparison": "tests/test_release_comparison.py",
+      "test_replacebg_clock": "tests/test_replacebg_clock.py",
+      "test_revision_clinical": "tests/test_revision_clinical.py",
+      "test_revision_warning": "tests/test_revision_warning.py"
+    },
+    "scope": "Implementation and numerical unit checks; source-data reproduction is separate"
+  },
+  "original_source_reproduction": {
+    "status": "PASS",
+    "completed_utc": "2026-10-23T06:11:03.713742+00:00",
+    "scope": "Original-source reproduction; six provider inputs and release source only",
+    "original_inputs_unchanged": true,
+    "commands": [
+      {
+        "name": "scientific_tests",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/run_tests.py",
+          "--output-root",
+          "RUN/test_results"
+        ],
+        "returncode": 0,
+        "seconds": 5.032000000000153,
+        "log": "logs/scientific_tests.log"
+      },
+      {
+        "name": "tn10",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/reproduce_tn10.py",
+          "--inputs-root",
+          "INPUTS",
+          "--output-root",
+          "RUN"
+        ],
+        "returncode": 0,
+        "seconds": 19.592999999999847,
+        "log": "logs/tn10.log"
+      },
+      {
+        "name": "warning_primary",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/reproduce_warning.py",
+          "--dclp3-archive",
+          "INPUTS/DCLP3 Public Dataset - Release 3 - 2022-08-04.zip",
+          "--replacebg-archive",
+          "INPUTS/Replace-BG Dataset.zip",
+          "--work-root",
+          "RUN/card001",
+          "--diagnostics-root",
+          "RUN/revision_20261022_r2/card001",
+          "--threads",
+          "8",
+          "--workers",
+          "2",
+          "--stage",
+          "core"
+        ],
+        "returncode": 0,
+        "seconds": 2198.3280000000004,
+        "log": "logs/warning_primary.log"
+      },
+      {
+        "name": "warning_robustness",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/reproduce_warning.py",
+          "--dclp3-archive",
+          "INPUTS/DCLP3 Public Dataset - Release 3 - 2022-08-04.zip",
+          "--replacebg-archive",
+          "INPUTS/Replace-BG Dataset.zip",
+          "--work-root",
+          "RUN/card001",
+          "--diagnostics-root",
+          "RUN/revision_20261022_r2/card001",
+          "--threads",
+          "8",
+          "--workers",
+          "2",
+          "--stage",
+          "robustness"
+        ],
+        "returncode": 0,
+        "seconds": 1562.75,
+        "log": "logs/warning_robustness.log"
+      },
+      {
+        "name": "clinical",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/reproduce_clinical.py",
+          "--run-root",
+          "RUN",
+          "--archive",
+          "INPUTS/CLVerPublicDataset.zip",
+          "--warning-root",
+          "RUN/card001",
+          "--stage",
+          "complete"
+        ],
+        "returncode": 0,
+        "seconds": 747.9069999999992,
+        "log": "logs/clinical.log"
+      },
+      {
+        "name": "warning_diagnostics",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/reproduce_warning.py",
+          "--dclp3-archive",
+          "INPUTS/DCLP3 Public Dataset - Release 3 - 2022-08-04.zip",
+          "--replacebg-archive",
+          "INPUTS/Replace-BG Dataset.zip",
+          "--work-root",
+          "RUN/card001",
+          "--diagnostics-root",
+          "RUN/revision_20261022_r2/card001",
+          "--threads",
+          "8",
+          "--workers",
+          "2",
+          "--clinical-root",
+          "RUN/card003",
+          "--stage",
+          "diagnostics"
+        ],
+        "returncode": 0,
+        "seconds": 147.375,
+        "log": "logs/warning_diagnostics.log"
+      },
+      {
+        "name": "endpoint_decomposition",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/paper_endpoint_decomposition.py",
+          "--data-root",
+          "RUN",
+          "--output-root",
+          "RUN/revision_20261022_r3/paper/endpoints"
+        ],
+        "returncode": 0,
+        "seconds": 1.75,
+        "log": "logs/endpoint_decomposition.log"
+      },
+      {
+        "name": "compare_authoritative",
+        "command": [
+          "PYTHON",
+          "-B",
+          "RELEASE/src/compare_results.py",
+          "--run-root",
+          "RUN",
+          "--output",
+          "RUN/result_comparison.json"
+        ],
+        "returncode": 0,
+        "seconds": 0.4220000000004802,
+        "log": "logs/compare_authoritative.log"
+      }
+    ]
+  },
+  "authoritative_comparison": {
+    "status": "PASS",
+    "evidence": {
+      "card001/results/internal_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "4a86bc1163c7f4a6fc27aff2ba96d583a359455207646e90510d2fcef5c0c716"
+      },
+      "card001/results/external_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "b075f0ee261f93daf5edebdcf82587e677d82ea35c04164a41a80ba9fc28cf47"
+      },
+      "card001/results/internal_comparison.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "cohort_manifest_sha256": {
+            "authoritative": "2e4c0c09eaa36df81e2e450d42b1e47ae6a1cb92bc713e81c2f3d286132c0716",
+            "reproduced": "98c8413f33505bbccd03bd53184092037c495d7830b97c71a926025a3ccd0d53"
+          }
+        },
+        "authoritative_sha256": "7b575cdf131673398a89f19ab6a714b5a0a75c5cb28247fbd35aa78e7ec23665",
+        "reproduced_sha256": "f182483fb8165ad983ed31aba28d8a29da1e9501397c66a2d11807990052b2f0"
+      },
+      "card001/results/external_comparison.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "cohort_manifest_sha256": {
+            "authoritative": "2f10bac046e0f16e3904813ec451cf3edc09de98fdac6cbbc34551b03596a8cb",
+            "reproduced": "ce45f60eeb6f592c65ac2f3c2469a87852cffa251ec926dce51e8103da333d52"
+          }
+        },
+        "authoritative_sha256": "0eed0294a0d96fb5a296b963258ea796916cd2ac0f57b6e13426c052898c557d",
+        "reproduced_sha256": "78db78d0b655fc2f6537ced56737a80b5e7077b5b3d4ba29630c1b33db8e5895"
+      },
+      "card001/results/alarm_category_counts.csv": {
+        "method": "exact SHA-256",
+        "sha256": "ecd0af4acb7623d7053e277c114190f97e66f05c5fd31402696ab640a9ea8872"
+      },
+      "revision_20261022_r2/card001/availability_containment_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "88f4cef887551abe246d6358dcb50a869124d9cc478ac69c1667c1ec855631f3"
+      },
+      "revision_20261022_r2/card001/paired_event_discordance.csv": {
+        "method": "exact SHA-256",
+        "sha256": "a5f7056623c6fdf1c33649b30eda1e986481d6361b5c49746c11b85fb28a47fc"
+      },
+      "revision_20261022_r2/card001/fixed_ablation_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "3a953a305bccac7ed0423ac3ad4dfcb6af42a9b3cf0eb616dbf713bfef93a249"
+      },
+      "revision_20261022_r2/card001/fixed_ablation_contrasts.json": {
+        "method": "exact SHA-256",
+        "sha256": "9d3e6abb29a7a5d67cfaac6e66a2cffe4859623535884d8ef9a760ea64930279"
+      },
+      "revision_20261022_r2/card001/selection_stability_summary.json": {
+        "method": "exact SHA-256",
+        "sha256": "74c1db5902f0a9337e2378356c3fb1a811dd5c5af6fae083fe2f4a66a1955baa"
+      },
+      "revision_20261022_r2/card001/selection_stability_frequencies.csv": {
+        "method": "exact SHA-256",
+        "sha256": "ced2534a3e44f9287de030f88f3aa67ec8b0f02c7bc92a28f926733f5fca01ad"
+      },
+      "revision_20261022_r2/card001/cohort_characteristics_continuous.csv": {
+        "method": "exact SHA-256",
+        "sha256": "e508c800096c1bf62db84a12eef6b3d4b354ac2e18873fc4dbadd5be74354fd8"
+      },
+      "revision_20261022_r2/card001/cohort_characteristics_categorical.csv": {
+        "method": "exact SHA-256",
+        "sha256": "5d322aff5678a67756231b9126ed106794d3ef7102324ccc5c48da94612bc10e"
+      },
+      "revision_20261022_r2/card001/DCLP3_full_and_split_coverage.csv": {
+        "method": "exact SHA-256",
+        "sha256": "5e93ef770ef37e28dabdac41e79e3d965eebc84233d89e6d9c3bfb76e8420626"
+      },
+      "revision_20261022_r2/card001/source_coverage_event_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "78f418ad1201ff2f384745cf23abce3fec8f8dc1f4837b5f64dbe51126d682b7"
+      },
+      "revision_20261022_r2/card001/alarm_category_summary.csv": {
+        "method": "exact SHA-256",
+        "sha256": "a30d263c201cb772803d08c3a420ce28f6a45ab4fcf32ed74a6731731c775a45"
+      },
+      "revision_20261022_r2/card001/event_weighted_and_person_sensitivity.csv": {
+        "method": "exact SHA-256",
+        "sha256": "77ed6ccd81b8db1fdfe85d5768a8732fd1bf63e98a61fa6e8bcf40affa0056e5"
+      },
+      "card003/results/model_primary.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "elapsed_seconds": {
+            "authoritative": 27.680056800003513,
+            "reproduced": 20.911153200000626
+          }
+        },
+        "authoritative_sha256": "74f8ee04faac4b2c333f8bc4094aa01fbd283628272fc86b129ff7baf325fa6f",
+        "reproduced_sha256": "893514edd0372a9b560b2e9d4abc766dfefe807c4322d276d624ddb853158562"
+      },
+      "card003/results/model_total_events.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "elapsed_seconds": {
+            "authoritative": 28.411271900011343,
+            "reproduced": 20.598601399999097
+          }
+        },
+        "authoritative_sha256": "ab043b44d1b235b80cdaabb321b30216cb5f7779ad7a0ea79337834a132f00f3",
+        "reproduced_sha256": "b5632919e67dc4676ae305b8f20a0b4321ec012d86fbd45042107b41d8bc1110"
+      },
+      "card003/results/model_remission.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "elapsed_seconds": {
+            "authoritative": 24.949816099993768,
+            "reproduced": 18.40478500000063
+          }
+        },
+        "authoritative_sha256": "126c293ec7da1fa21853301af5ae5112d2c15f3e536b2f55e9338d39425a415c",
+        "reproduced_sha256": "0097a78bbfc8e132a8dde442d4e8862c4a17b5625230bf1fafdf9f4cf633995c"
+      },
+      "card003/results/model_quadratic_AUC.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "elapsed_seconds": {
+            "authoritative": 0.019233799990615807,
+            "reproduced": 0.014098800000283518
+          }
+        },
+        "authoritative_sha256": "1ae41c7cce60c7a2394eec9c30580b167cda6bb501533bb7dfe1426d0d805375",
+        "reproduced_sha256": "79a0da56a9c49aaf677cb10d12a8295b495147e8e5f4e07a8ff9b1a037dad672"
+      },
+      "card003/results/primary_gates.json": {
+        "method": "exact SHA-256",
+        "sha256": "e6a0817db229fdc821d35a2bb74ef18e70f1293cadc026240d971452aaf806fb"
+      },
+      "card003/results/transfer.json": {
+        "method": "exact SHA-256",
+        "sha256": "3046513f76e118c977e91deb20dcc46b4aa0cb7c6859b466d99c954aad961e52"
+      },
+      "card003/results/sensitivity_matrix.csv": {
+        "method": "exact SHA-256",
+        "sha256": "cbd72a376ee06e931e9fdb4a1dc448de31b5ca393da1298a7ccfb100f7ae03fd"
+      },
+      "revision_20261022_r2/card003/results/auc_variation.json": {
+        "method": "exact SHA-256",
+        "sha256": "37aa143d0144fbfd9d9d535c20c18c1ad2ad1c16d02565f4da2c3697a45b04fa"
+      },
+      "revision_20261022_r2/card003/results/cohort_context.json": {
+        "method": "exact SHA-256",
+        "sha256": "b8f8ac2dfb9d00375c76842760df134d921e0bee6b80c48b93e2d62ea1afda38"
+      },
+      "revision_20261022_r2/card003/results/conditional_warning_logistic.json": {
+        "method": "exact SHA-256",
+        "sha256": "3d688582e086ebae9209c20602fd3885546c165f4e0bd8005a5085a5635d6b45"
+      },
+      "revision_20261022_r2/card003/results/same_sample_pooled.json": {
+        "method": "exact SHA-256",
+        "sha256": "9a48b30e56195de08536624e3cb32d00af777850c80e22528e7f7d1b8296ca0a"
+      },
+      "revision_20261022_r2/card003/results/mundlak.json": {
+        "method": "exact SHA-256",
+        "sha256": "71312cb7ec7dc57bd755931439eed9fbe39d5a476fcf9561bb5e9f0b29ed394a"
+      },
+      "revision_20261022_r2/card003/results/never_warning_identity.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "original_total_result_reused.elapsed_seconds": {
+            "authoritative": 28.411271900011343,
+            "reproduced": 20.598601399999097
+          }
+        },
+        "authoritative_sha256": "79c5b57e1fde92344fcec27d8ec11dc0d1863bf30bfa7b8e7cfb0260423676d5",
+        "reproduced_sha256": "18c1a69af1938777c12974106f50ad6174b8e1fc42fa9d24fd84c71cb1ff85ef"
+      },
+      "revision_20261022_r2/card003/results/paired_comparison.json": {
+        "method": "exact SHA-256",
+        "sha256": "dc46269210f945076d198365bcf50e0c4c262c65a6f1f44f59f81443eb2d181a"
+      },
+      "revision_20261022_r2/card003/results/joint_auc_bands.csv": {
+        "method": "exact SHA-256",
+        "sha256": "8726fb66bdee1de0ed74e7b294cb627e1bbb577f3bc809ada682567efd094604"
+      },
+      "revision_20261022_r2/card003/results/fitted_curve_events.csv": {
+        "method": "exact SHA-256",
+        "sha256": "e001b3ccdf51ab7086b7cf212812dfc6c2bd01cc5e79c07f07fdcd560509742f"
+      },
+      "revision_20261022_r2/card003/results/fitted_curve_unwarned.csv": {
+        "method": "exact SHA-256",
+        "sha256": "14740f8f00fe0bbf67c74a47e5cc418fd40aa3f3e5d84e593cd019630538bc55"
+      },
+      "card002/results/bootstrap_results.json": {
+        "method": "exact SHA-256",
+        "sha256": "20f431e05208ae51cf4a7b4a45f45da8155cc9d6ec9ea891598126c17a0fcc2f"
+      },
+      "card002/results/primary_genes.txt": {
+        "method": "exact SHA-256",
+        "sha256": "09c7b17296f6ec5b1b90357b555ec62748821592f042070a6f0ec525cd106f11"
+      },
+      "revision_20261022_r2/card002/endpoint_provenance_revision.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {
+          "original_assertion_narrowed": {
+            "authoritative": "all_73_primary_outcomes_observed is an encoding check, not independent clinical verification",
+            "reproduced": "All 73 restricted outcomes are numerically defined by the encoding; this does not independently verify clinical ascertainment"
+          }
+        },
+        "authoritative_sha256": "4f7b8850cded0631b28cd0bfd277208681f39ba6e2177496d71fddea649178d5",
+        "reproduced_sha256": "eba4b9345488bd1a40e54ccd46dd5ee63676b0f2f70bfdede0f82465d84f7643"
+      },
+      "revision_20261022_r2/card002/followup_identification_cells.csv": {
+        "method": "exact SHA-256",
+        "sha256": "774631bb6a4a0c2cca0b48cd36078937c701f6c139d2d5bf9b8ebe55305a25af"
+      },
+      "revision_20261022_r2/card002/followup_identification_range.json": {
+        "method": "exact SHA-256",
+        "sha256": "e0e5930fd79ec86994f0e559ebf5b128f28ac36b2571810eff3153092c3296ff"
+      },
+      "revision_20261022_r2/card002/four_group_outcomes.csv": {
+        "method": "exact SHA-256",
+        "sha256": "65533e806d7fb59c11fc985511c7c132a5481e904dcf2952f138d9491c5c6dfc"
+      },
+      "revision_20261022_r2/card002/continuous_interactions.csv": {
+        "method": "exact SHA-256",
+        "sha256": "3800b7003d16e7baa7beba8edde318f8068a1efcc0f731ce43398e18cf318225"
+      },
+      "revision_20261022_r2/card002/complete_case_four_cell.json": {
+        "method": "exact SHA-256",
+        "sha256": "0ef4829bc6bdf41de8d0129aa1f174b480daa9ce26443c3518714c9b1b0394fd"
+      },
+      "revision_20261022_r2/card002/normalization_horizon_completecase.csv": {
+        "method": "exact SHA-256",
+        "sha256": "c8f31d46813886567fcf8a010f476475f64af9dd2756b99f24a2a45865324d32"
+      },
+      "revision_20261022_r2/card002/tn10_curve_risk_counts.csv": {
+        "method": "exact SHA-256",
+        "sha256": "1b2ecdd0bec6d040ca321b266f6c8d582afd6a717699b734bcff5776d9abf579"
+      },
+      "revision_20261022_r2/card002/tn10_curve_steps.csv": {
+        "method": "exact SHA-256",
+        "sha256": "eff3fca7ba6b2769f41313ea5c81c338153e01f00a13fba8bf24271698bc193a"
+      },
+      "revision_20261022_r3/paper/endpoints/event_opportunity_warning_decomposition.csv": {
+        "method": "exact SHA-256",
+        "sha256": "d26aa0d38b62dfcb2a6a7263374870ff8d894f25347f0836583257ef12397b46"
+      },
+      "revision_20261022_r3/paper/endpoints/alarm_composition.csv": {
+        "method": "exact SHA-256",
+        "sha256": "ef87ecb2798816daef6c6d78a7b705f0db4e2606ae1297e62654a131de8d0ca4"
+      },
+      "revision_20261022_r3/paper/endpoints/saved_quadratic_contrasts.csv": {
+        "method": "exact SHA-256",
+        "sha256": "e8668e1865fa4e0830ed2addac34a06f130620985801bc2d0cba0daa62e625a3"
+      },
+      "revision_20261022_r3/paper/tn10/bootstrap_distribution_summary.json": {
+        "method": "exact SHA-256",
+        "sha256": "7dc4599240cd93c266d3d0d87e2653ffa9a75bde759fcca71f6010eb2859d791"
+      },
+      "revision_20261022_r3/paper/tn10/bootstrap_assignment_summary.json": {
+        "method": "exact SHA-256",
+        "sha256": "d8e8d01ce64f18fd1841ee7f81c11a2e2d17a878364bb0da9bbc90ed2c0889cd"
+      },
+      "revision_20261022_r3/paper/tn10/followup_profile.csv": {
+        "method": "exact SHA-256",
+        "sha256": "0329787604983f6e05368c3d1247a0a7bf16d1a3a8543c3acc84b09fd8c0ea55"
+      },
+      "revision_20261022_r3/paper/tn10/followup_profile_summary.json": {
+        "method": "exact SHA-256",
+        "sha256": "9bf0e9d5c586a9739b3d489ac1c86282affcf1176526c29f0f619edd6322b1c5"
+      },
+      "card003/results/model_within_child.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {},
+        "authoritative_sha256": "5e21df1c4081468b69cd79ad289a748b56c85046a76c6a5adefe67d2157284fe",
+        "reproduced_sha256": "b3de4c0e6ed810a46953097c48a628019173e7214d13dece6ffa4a0702eeeec2"
+      },
+      "card002/results/primary_results.json": {
+        "method": "structured comparison",
+        "excluded_execution_metadata": {},
+        "authoritative_sha256": "180bbe8b82e81cb24d55ff684f0fa084441171c8d131362484337a83458970c4",
+        "reproduced_sha256": "01593083375a2c8d9b508822b066aa4c5c06314055120ebfc06df45f15c526d0"
+      }
+    },
+    "figures": {
+      "warning_diagnostics.png": {
+        "method": "exact RGB pixels",
+        "source": "revision_20261022_r2/card001/principal_warning_diagnostics.png"
+      },
+      "secretion_rates.png": {
+        "method": "exact RGB pixels",
+        "source": "figures/secretion_rates.png"
+      },
+      "tn10_curves.png": {
+        "method": "exact RGB pixels",
+        "source": "revision_20261022_r2/card002/tn10_outcome_curves.png"
+      },
+      "tn10_uncertainty_profile.png": {
+        "method": "exact RGB pixels",
+        "source": "revision_20261022_r3/paper/tn10/tn10_bootstrap_followup_diagnostics.png"
+      }
+    },
+    "failures": {},
+    "numeric_tolerance": {
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    "rationale": "Integer JSON counts and strings are exact; floats permit only binary/serialization roundoff. Row order and all scientific fields are preserved. Execution-only exclusions are explicit. Figures require exact pixels in the declared environment."
+  },
+  "intermediate_reconstruction": {
+    "status": "PASS",
+    "scope": "Retained-intermediate reconstruction; no model training or clinical refitting",
+    "inputs": {
+      "revision_20261022_r2/card001/availability_containment_by_interval.csv": {
+        "sha256": "f1239cc3bd7bbf6326fe39b0760c6b32ee807e5b7208aabe02a77118fc798db9",
+        "bytes": 168710,
+        "original_run_byte_match": false
+      },
+      "card001/results/internal_event_table.csv": {
+        "sha256": "84ade0d40ae325b49c407a50a417c0e8fba796e051b5180a765afc7419b8154d",
+        "bytes": 11281,
+        "original_run_byte_match": true
+      },
+      "card001/results/internal_alarm_ledger.csv": {
+        "sha256": "37e90fa018f61734134907ae4f3b724c74f557007df61ab96c2cb44141d50a95",
+        "bytes": 442310,
+        "original_run_byte_match": true
+      },
+      "card001/results/internal_participant_scores.csv": {
+        "sha256": "3e8f541afde5a428f213db728b9d8b56419e3d519ca29d0b30745718314ed957",
+        "bytes": 10319,
+        "original_run_byte_match": true
+      },
+      "card001/results/internal_summary.csv": {
+        "sha256": "4a86bc1163c7f4a6fc27aff2ba96d583a359455207646e90510d2fcef5c0c716",
+        "bytes": 875,
+        "original_run_byte_match": true
+      },
+      "card001/results/external_event_table.csv": {
+        "sha256": "21141688d4fc5b558431ed16b0739cd25182bc7bfe4eadbf240533c533b009ad",
+        "bytes": 559473,
+        "original_run_byte_match": true
+      },
+      "card001/results/external_alarm_ledger.csv": {
+        "sha256": "a9cadfb78dcce8a432be541d00851200c0756d82eb10259d5f39aba78f54dd3d",
+        "bytes": 9198456,
+        "original_run_byte_match": true
+      },
+      "card001/results/external_participant_scores.csv": {
+        "sha256": "fe0c1ca8f977aef300bb8e0bedb0800012787e3b9b31cae81cb1f15966f7462b",
+        "bytes": 102055,
+        "original_run_byte_match": true
+      },
+      "card001/results/external_summary.csv": {
+        "sha256": "b075f0ee261f93daf5edebdcf82587e677d82ea35c04164a41a80ba9fc28cf47",
+        "bytes": 958,
+        "original_run_byte_match": true
+      },
+      "card003/results/primary_intervals.csv": {
+        "sha256": "0d3a6a4496179e836159208f22ddb66e58cb6b7ac835208ae36a2136ec615d35",
+        "bytes": 227388,
+        "original_run_byte_match": false
+      },
+      "card003/results/events_primary.csv": {
+        "sha256": "3b86931152d083aa745c9ba013734b6e07da2dca9d93513f7790247b115604f5",
+        "bytes": 27981,
+        "original_run_byte_match": true
+      },
+      "card003/results/alarms_primary.csv": {
+        "sha256": "362a31653ecd124b1c53721296035169b6a41bd2dd0a38aaefaff861ce7913ee",
+        "bytes": 872522,
+        "original_run_byte_match": true
+      },
+      "card003/results/transfer.json": {
+        "sha256": "3046513f76e118c977e91deb20dcc46b4aa0cb7c6859b466d99c954aad961e52",
+        "bytes": 3317,
+        "original_run_byte_match": true
+      },
+      "card003/results/quadratic_diagnostics.json": {
+        "sha256": "e4717751422d030b9dca1a3ea875053e2d7fe51808d13890cc4027890f23edbe",
+        "bytes": 5496,
+        "original_run_byte_match": true
+      },
+      "card003/results/model_quadratic_AUC.json": {
+        "sha256": "79a0da56a9c49aaf677cb10d12a8295b495147e8e5f4e07a8ff9b1a037dad672",
+        "bytes": 1847,
+        "original_run_byte_match": false
+      },
+      "card003/results/model_primary.json": {
+        "sha256": "893514edd0372a9b560b2e9d4abc766dfefe807c4322d276d624ddb853158562",
+        "bytes": 1578,
+        "original_run_byte_match": false
+      },
+      "card002/raw/TN10_metadata.csv": {
+        "sha256": "dabd7beff35f82aef231f9c9e0fd5b91974cdbc9f175edd8831c475824517586",
+        "bytes": 44999,
+        "original_run_byte_match": true
+      },
+      "card002/raw/TN10_raw_counts.csv": {
+        "sha256": "74085ba79ef79c44d5e25679e36f3615562c0a644700f2332426d71b942e1ee8",
+        "bytes": 8508942,
+        "original_run_byte_match": true
+      },
+      "card002/results/analysis_dataset.tsv": {
+        "sha256": "1e0ce5bc536e13e9e85f7e1ce3a76a605eb0e6235dc3f7b06f169640b1a941b1",
+        "bytes": 4603,
+        "original_run_byte_match": true
+      },
+      "card002/results/primary_results.json": {
+        "sha256": "01593083375a2c8d9b508822b066aa4c5c06314055120ebfc06df45f15c526d0",
+        "bytes": 3580,
+        "original_run_byte_match": true
+      },
+      "card002/results/bootstrap_results.json": {
+        "sha256": "20f431e05208ae51cf4a7b4a45f45da8155cc9d6ec9ea891598126c17a0fcc2f",
+        "bytes": 595,
+        "original_run_byte_match": true
+      },
+      "card002/results/bootstrap_draws.tsv": {
+        "sha256": "a9b393c200cb84fe880e3f6bc3a3b4d0ffde9d7906a2e8ec05b7a2533d467b82",
+        "bytes": 560331,
+        "original_run_byte_match": true
+      },
+      "card002/results/primary_genes.txt": {
+        "sha256": "09c7b17296f6ec5b1b90357b555ec62748821592f042070a6f0ec525cd106f11",
+        "bytes": 2017,
+        "original_run_byte_match": true
+      },
+      "revision_20261022_r2/card002/followup_identification_range.json": {
+        "sha256": "e0e5930fd79ec86994f0e559ebf5b128f28ac36b2571810eff3153092c3296ff",
+        "bytes": 1478,
+        "original_run_byte_match": true
+      },
+      "revision_20261022_r2/card002/followup_identification_cells.csv": {
+        "sha256": "774631bb6a4a0c2cca0b48cd36078937c701f6c139d2d5bf9b8ebe55305a25af",
+        "bytes": 304,
+        "original_run_byte_match": true
+      }
+    },
+    "input_hashes_unchanged": true,
+    "exact_outputs": {
+      "endpoints/event_opportunity_warning_decomposition.csv": "d26aa0d38b62dfcb2a6a7263374870ff8d894f25347f0836583257ef12397b46",
+      "endpoints/alarm_composition.csv": "ef87ecb2798816daef6c6d78a7b705f0db4e2606ae1297e62654a131de8d0ca4",
+      "endpoints/saved_quadratic_contrasts.csv": "e8668e1865fa4e0830ed2addac34a06f130620985801bc2d0cba0daa62e625a3",
+      "tn10/bootstrap_distribution_summary.json": "7dc4599240cd93c266d3d0d87e2653ffa9a75bde759fcca71f6010eb2859d791",
+      "tn10/bootstrap_assignment_summary.json": "d8e8d01ce64f18fd1841ee7f81c11a2e2d17a878364bb0da9bbc90ed2c0889cd",
+      "tn10/followup_profile.csv": "0329787604983f6e05368c3d1247a0a7bf16d1a3a8543c3acc84b09fd8c0ea55",
+      "tn10/followup_profile_summary.json": "9bf0e9d5c586a9739b3d489ac1c86282affcf1176526c29f0f619edd6322b1c5"
+    },
+    "commands": [
+      [
+        "PYTHON",
+        "-B",
+        "RELEASE/src/paper_endpoint_decomposition.py",
+        "--data-root",
+        "RUN",
+        "--output-root",
+        "DIAGNOSTICS/endpoints"
+      ],
+      [
+        "PYTHON",
+        "-B",
+        "RELEASE/src/paper_tn10_diagnostics.py",
+        "--data-root",
+        "RUN",
+        "--raw-root",
+        "INPUTS",
+        "--output-root",
+        "DIAGNOSTICS/tn10",
+        "--stage",
+        "run"
+      ]
+    ],
+    "environment": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "packages": {
+        "cffi": "2.1.1",
+        "charset-normalizer": "3.5.2",
+        "cloudpickle": "3.1.2",
+        "contourpy": "1.4.0",
+        "cryptography": "50.0.2",
+        "cycler": "0.12.1",
+        "fonttools": "4.67.0",
+        "formulaic": "1.2.2",
+        "interface_meta": "2.0.1",
+        "joblib": "1.6.0",
+        "kiwisolver": "1.5.1",
+        "llvmlite": "0.50.0",
+        "lxml": "6.1.1",
+        "matplotlib": "3.11.2",
+        "narwhals": "2.27.1",
+        "numba": "0.68.0",
+        "numpy": "2.5.4",
+        "packaging": "26.3",
+        "pandas": "3.1.0",
+        "patsy": "1.0.3",
+        "pdfminer.six": "20251230",
+        "pdfplumber": "0.11.9",
+        "pillow": "13.0.0",
+        "pycparser": "3.11",
+        "pyparsing": "3.3.3",
+        "pypdf": "6.10.0",
+        "pypdfium2": "5.14.0",
+        "psutil": "7.0.0",
+        "python-dateutil": "3.0.0",
+        "python-docx": "1.2.0",
+        "reportlab": "4.4.9",
+        "scikit-learn": "1.7.2",
+        "scipy": "1.18.1",
+        "six": "1.17.0",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "typing_extensions": "4.16.0",
+        "tzdata": "2026.5",
+        "wrapt": "2.5.1"
+      }
+    },
+    "identity_note": "Original-run hash differences are reported. Fresh source runs change provenance fields; the seven committed scientific diagnostics must remain byte-identical."
+  },
+  "manuscript_rebuild": {
+    "status": "PASS",
+    "authoritative_files_unchanged": true,
+    "tex_byte_identical": true,
+    "substantive_docx_xml_and_media_parts_exact": 18,
+    "docx_differences": "Created/modified metadata timestamps only in independent rebuild",
+    "pdf_pages": 18,
+    "pdf_pixel_identical_pages": 18,
+    "render_dpi": 120,
+    "visual_review_pages": 18,
+    "new_word_renderer_run": false
+  },
+  "comparison_rules": {
+    "integral_values": "exact",
+    "text_and_schema": "exact except explicitly documented provenance field and two declared public projections",
+    "floating_atol": 1e-10,
+    "floating_rtol": 1e-10,
+    "figures": "exact pixels in declared environment",
+    "no_tolerance_change_to_force_pass": true
+  },
+  "commands": [
+    "PYTHON -I -B src/release.py verify",
+    "PYTHON -I -B src/release.py inputs --inputs-root INPUTS",
+    "PYTHON -I -B src/release.py reproduce --inputs-root INPUTS --output-root RUN",
+    "PYTHON -I -B src/reconstruct_paper.py --data-root RUN --raw-root INPUTS --output-root DIAGNOSTICS",
+    "PYTHON -I -B src/release.py verify",
+    "PYTHON -I -B -m pip check"
+  ],
+  "root_placeholders": {
+    "RELEASE": "Repository working directory used for the recorded execution",
+    "PYTHON": "Python 3.12.14 in a fresh environment with requirements-lock.txt installed",
+    "INPUTS": "Directory containing the six exact original provider files",
+    "RUN": "New original-source reproduction output directory",
+    "DIAGNOSTICS": "New retained-intermediate reconstruction output directory"
+  },
+  "interpretation": "This record contains the completed execution results directly. Current checkout-specific checks are recorded separately in verification.json. Historical source hashes identify the implementation that actually ran; later description and checkout-verification edits do not retrospectively become part of that execution."
+}

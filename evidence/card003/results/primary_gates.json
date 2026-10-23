@@ -1,0 +1,10 @@
+{
+  "status": "Inconclusive",
+  "gates": {
+    "sample_floor": true,
+    "residual_floor": true,
+    "transfer": false,
+    "integrity": true,
+    "identified_model": true
+  }
+}

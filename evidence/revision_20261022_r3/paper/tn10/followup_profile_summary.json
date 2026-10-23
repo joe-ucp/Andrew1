@@ -1,0 +1,44 @@
+{
+  "theta_original_weeks": 69.17543290043291,
+  "positive_uncertain_weight": 0.5340909090909092,
+  "negative_uncertain_weight": 0.43333333333333335,
+  "lower_crosses_zero_at_L_weeks": 26.480040526849052,
+  "lower_crosses_26_at_L_weeks": 75.16089159067882,
+  "inequality": "Strict lower>0 requires L strictly greater than first crossing; strict lower>26 requires L strictly greater than second crossing. Equality at the crossing is not strict support.",
+  "lower_formula": "69.175432900433 - (156 - L) * 0.53409090909091",
+  "upper_formula": "69.175432900433 + (156 - L) * 0.43333333333333",
+  "clinical_minimum_followup_verified": false,
+  "sampling_uncertainty_included": false,
+  "original_decision_rule_satisfied_by_profile": false,
+  "cells": [
+    {
+      "group": "low_treated",
+      "sign": 1,
+      "n": 22,
+      "uncertain": 9,
+      "fixed_sum": 1772.2857142857142
+    },
+    {
+      "group": "low_placebo",
+      "sign": -1,
+      "n": 15,
+      "uncertain": 2,
+      "fixed_sum": 804.7142857142858
+    },
+    {
+      "group": "high_treated",
+      "sign": -1,
+      "n": 20,
+      "uncertain": 6,
+      "fixed_sum": 1410.8571428571427
+    },
+    {
+      "group": "high_placebo",
+      "sign": 1,
+      "n": 16,
+      "uncertain": 2,
+      "fixed_sum": 1553.4285714285716
+    }
+  ],
+  "interpretation": "Finite-sample identification profile with fixed groups and recorded diagnosis endpoints. Not a confidence interval, population effect bound, or satisfaction of the original sampling-interval decision rule. Later RNA samples supply no follow-up information here."
+}

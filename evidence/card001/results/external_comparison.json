@@ -1,0 +1,47 @@
+{
+  "status": "REFUTED_TARGET_GAIN",
+  "cohort": "external",
+  "analysis_role": "primary",
+  "cohort_manifest_sha256": "2f10bac046e0f16e3904813ec451cf3edc09de98fdac6cbbc34551b03596a8cb",
+  "comparator": "M15",
+  "sensitivity_difference": -0.055966697502312646,
+  "unconfirmed_difference": 0.07947444662415348,
+  "feasibility_floor": true,
+  "burden_caps": false,
+  "burden_rate_intervals": {
+    "undefined_replicates": 0,
+    "switch_unconfirmed": [
+      1.3759364772796814,
+      1.5849177502637637
+    ],
+    "comparator_unconfirmed": [
+      1.3128341888621293,
+      1.4863065611402524
+    ],
+    "switch_total": [
+      1.495790426071473,
+      1.728832283390451
+    ],
+    "comparator_total": [
+      1.4457194574731365,
+      1.6441142097462282
+    ]
+  },
+  "statistically_refuted_target_gain": true,
+  "statistically_refuted_margin": false,
+  "statistically_refuted_cap": true,
+  "development_projected_MDE": 0.02612678808372255,
+  "development_precision_resolvable": true,
+  "operating_point_rejected": true,
+  "replicates": 10000,
+  "undefined": 0,
+  "sensitivity_difference_ci": [
+    -0.06646575813063589,
+    -0.04514322932336712
+  ],
+  "unconfirmed_difference_ci": [
+    0.04153707686341679,
+    0.11978741553671228
+  ],
+  "caveat": "Retrospective recorded sensor episodes only; not a clinical efficacy or dosing result"
+}

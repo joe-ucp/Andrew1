@@ -1,0 +1,31 @@
+{
+  "seed": 20261022,
+  "draws_requested": 10000,
+  "valid_draws": 10000,
+  "unusable": 0,
+  "max_absolute_original_effect_discrepancy_weeks": 0.0,
+  "all_original_effect_draws_reproduced": true,
+  "draw_weighted_flipped_slots": 34345,
+  "draw_weighted_denominator": 730000,
+  "draw_weighted_flip_fraction": 0.047047945205479454,
+  "unique_inbag_flipped_participant_draws": 21678,
+  "unique_inbag_denominator": 464941,
+  "pooled_unique_inbag_flip_fraction": 0.04662527073327583,
+  "mean_unique_inbag_flip_fraction_per_draw": 0.046794853849782,
+  "median_unique_inbag_flip_fraction_per_draw": 0.0425531914893617,
+  "unique_inbag_flip_fraction_per_draw_q25_q75": [
+    0.02127659574468085,
+    0.06666666666666667
+  ],
+  "draws_with_any_flip": 8546,
+  "median_unique_participants_per_draw": 47.0,
+  "participant_conditional_flip_fraction_median": 0.0,
+  "participant_conditional_flip_fraction_max": 0.48582615505090054,
+  "participants_ever_flipped": 29,
+  "denominator_definitions": {
+    "draw_weighted_flips": "Each of the 73 sampled slots per draw contributes once; repeated source participants count repeatedly. Compare reconstructed label with that participant's original full-sample label.",
+    "unique_inbag_flips": "Each distinct source participant appearing in a draw contributes once; absent participants are not classified. Pooled rate divides summed participant-draw flips by summed distinct participant-draw appearances.",
+    "participant_flips": "For each participant, flips divided by the number of draws in which that participant appears at least once. Repeated copies must have identical labels."
+  },
+  "interpretation": "Label changes and distribution displacement are descriptive properties of the existing bootstrap. They do not isolate a causal contribution of relabeling from sample composition or establish superiority of one interval method."
+}

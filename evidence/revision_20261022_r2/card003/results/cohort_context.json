@@ -1,0 +1,124 @@
+{
+  "flow": [
+    {
+      "stage": "randomized",
+      "children": 113,
+      "pairs": null
+    },
+    {
+      "stage": "possible forward pairs",
+      "children": 113,
+      "pairs": 339
+    },
+    {
+      "stage": "assay and temporal gates",
+      "children": 108,
+      "pairs": 301
+    },
+    {
+      "stage": "at least 70% observed CGM",
+      "children": 102,
+      "pairs": 276
+    },
+    {
+      "stage": "original fixed-child sample",
+      "children": 58,
+      "pairs": 164
+    }
+  ],
+  "sex_variable": "Not present in released randomized roster or canonical analysis input; not inferred",
+  "treatment_context": "Recorded management and existing treatment/device alarms influenced observed trajectories; replay alarms were not deployed",
+  "populations": {
+    "randomized": {
+      "children": 113,
+      "age_median": 11.0,
+      "age_q25": 9.0,
+      "age_q75": 13.0,
+      "age_min": 7.0,
+      "age_max": 17.0,
+      "management": {
+        "usual care": 52,
+        "intensive/Tandem": 39,
+        "intensive/Medtronic": 22
+      },
+      "source": {
+        "DeviceCGM": 74,
+        "GXB": 39
+      },
+      "cohort": {
+        "A": 88,
+        "B": 25
+      },
+      "delivery_arm": {
+        "intensive": 61,
+        "usual care": 52
+      }
+    },
+    "primary": {
+      "children": 102,
+      "age_median": 11.0,
+      "age_q25": 9.0,
+      "age_q75": 13.0,
+      "age_min": 7.0,
+      "age_max": 17.0,
+      "management": {
+        "usual care": 44,
+        "intensive/Tandem": 37,
+        "intensive/Medtronic": 21
+      },
+      "source": {
+        "DeviceCGM": 65,
+        "GXB": 37
+      },
+      "cohort": {
+        "A": 77,
+        "B": 25
+      },
+      "delivery_arm": {
+        "intensive": 58,
+        "usual care": 44
+      }
+    },
+    "within_child_sample": {
+      "children": 58,
+      "age_median": 11.0,
+      "age_q25": 9.0,
+      "age_q75": 13.0,
+      "age_min": 7.0,
+      "age_max": 17.0,
+      "management": {
+        "usual care": 25,
+        "intensive/Tandem": 18,
+        "intensive/Medtronic": 15
+      },
+      "source": {
+        "DeviceCGM": 40,
+        "GXB": 18
+      },
+      "cohort": {
+        "A": 44,
+        "B": 14
+      },
+      "delivery_arm": {
+        "intensive": 33,
+        "usual care": 25
+      }
+    }
+  },
+  "primary_intervals": {
+    "target_visit": {
+      "26": 94,
+      "39": 92,
+      "52": 90
+    },
+    "observed_days": 7293.402777777777,
+    "auc_min": 0.028000000000000004,
+    "auc_max": 2.4699999999999998,
+    "auc_q25": 0.360109375,
+    "auc_median": 0.56109375,
+    "auc_q75": 0.8634375000000001,
+    "lag_median": 63.0,
+    "lag_q25": 58.0,
+    "lag_q75": 68.0
+  }
+}
